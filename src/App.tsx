@@ -41,17 +41,17 @@ function App() {
     }
   }
 
-  const handleFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+  function handleFileChange (event: React.ChangeEvent<HTMLInputElement>) {
     const file = event.target.files?.[0] || null;
     setUploadedFile(file);
   };
 
-  const handleButtonClick = () => {
+  function handleButtonClick() {
     const fileInput = document.getElementById('file-upload');
     fileInput?.click();
   };
 
-  const handleSubmit = async () => {
+  async function handleSubmit() {
     if (selectedRepo === '') {
       enqueueSnackbar('Error: Please enter a dataset id.', { variant: 'error' });
     } else if (uploadedFile) {
@@ -67,10 +67,15 @@ function App() {
                 headers: {
                   'Content-Type': 'application/json',
                 },
+                auth: {
+                  username: 'admin',
+                  password: 'admin',
+                }
               }
             );
             enqueueSnackbar(`Success: ${response.data.message}`, { variant: 'success' });
-          } catch (error) {
+          } catch (error : any) {
+            console.log(error);
             enqueueSnackbar(`Error: ${error.response.data.error}`, { variant: 'error' });
           }
         }
@@ -113,7 +118,7 @@ function App() {
             Upload File
           </Button>
         </label>
-        <Typography>{uploadedFile && <p>File uploaded: {uploadedFile.name}</p>}</Typography>
+        <Typography>{uploadedFile && `File uploaded: ${uploadedFile.name}`}</Typography>
 
         <Button variant="contained" onClick={handleSubmit}>
           Submit
