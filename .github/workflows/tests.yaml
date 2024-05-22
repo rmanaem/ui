@@ -21,7 +21,7 @@ jobs:
 
       - name: Create .env file
         run: |
-          echo -e "NB_OPENNEURO_UPLOADER_API=http://127.0.0.1:8000/\nNB_USERNAME=admin\nNB_PASSWORD=admin" > .env
+          echo -e "NB_OPENNEURO_UPLOADER_API=${{ secrets.NB_OPENNEURO_UPLOADER_API }}\nNB_USERNAME=${{ secrets.NB_USERNAME }}\nNB_PASSWORD=${{ secrets.NB_PASSWORD }}" > .env
 
       - name: build
         run: npm install && npm run build
@@ -47,7 +47,7 @@ jobs:
 
       - name: Create .env file
         run: |
-          echo -e "NB_OPENNEURO_UPLOADER_API=http://127.0.0.1:8000/\nNB_USERNAME=admin\nNB_PASSWORD=admin" > .env
+          echo -e "NB_OPENNEURO_UPLOADER_API=${{ secrets.NB_OPENNEURO_UPLOADER_API }}\nNB_USERNAME=${{ secrets.NB_USERNAME }}\nNB_PASSWORD=${{ secrets.NB_PASSWORD }}" > .env
 
       - name: build
         run: npm install && npm run build
