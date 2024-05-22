@@ -1,37 +1,15 @@
-import { useState, useEffect } from 'react';
-import { Octokit } from '@octokit/rest';
-import { Autocomplete, TextField, Button, Typography } from '@mui/material';
+import { useState } from 'react';
+import { TextField, Button, Typography } from '@mui/material';
 import { SnackbarProvider, enqueueSnackbar } from 'notistack';
 import axios from 'axios';
 import CloudUploadIcon from '@mui/icons-material/CloudUpload';
 import './App.css';
+import { updateURL } from './utils/constants';
+import { isErrorWithResponse } from './utils/type';
 
 function App() {
-  // const [repos, setRepos] = useState<string[]>([]);
   const [selectedRepo, setSelectedRepo] = useState<string>('');
   const [uploadedFile, setUploadedFile] = useState<File | null>(null);
-
-  // useEffect(() => {
-  //   async function getRepos() {
-  //     const octokit = new Octokit({
-  //       auth: import.meta.env.NB_GITHUB_TOKEN,
-  //     });
-
-  //     const response = await octokit.paginate(octokit.rest.repos.listForOrg, {
-  //         org: "OpenNeuroDatasets-JSONLD",
-  //         per_page: 100
-  //     });
-
-  //     return response.slice(1).map((repo) => repo.name);
-  //   }
-
-  //   getRepos().then((repoNames) => {
-  //     if (repoNames.length !== 0) {
-  //       setRepos(repoNames);
-  //     }
-  //   });
-
-  // }, []);
 
   function updateSelectedRepo(value: string | null) {
     if (value !== null) {
@@ -41,15 +19,15 @@ function App() {
     }
   }
 
-  function handleFileChange (event: React.ChangeEvent<HTMLInputElement>) {
+  function handleFileChange(event: React.ChangeEvent<HTMLInputElement>) {
     const file = event.target.files?.[0] || null;
     setUploadedFile(file);
-  };
+  }
 
-  function handleButtonClick() {
+  function handleUpload() {
     const fileInput = document.getElementById('file-upload');
     fileInput?.click();
-  };
+  }
 
   async function handleSubmit() {
     if (selectedRepo === '') {
@@ -60,23 +38,20 @@ function App() {
         const content = readEvent.target?.result;
         if (typeof content === 'string') {
           try {
-            const response = await axios.put(
-              `http://localhost:8000/openneuro/upload?dataset_id=${selectedRepo}`,
-              content,
-              {
-                headers: {
-                  'Content-Type': 'application/json',
-                },
-                auth: {
-                  username: 'admin',
-                  password: 'admin',
-                }
-              }
-            );
+            const response = await axios.put(`${updateURL}=${selectedRepo}`, content, {
+              headers: {
+                'Content-Type': 'application/json',
+              },
+              auth: {
+                username: import.meta.env.NB_USERNAME,
+                password: import.meta.env.NB_PASSWORD,
+              },
+            });
             enqueueSnackbar(`Success: ${response.data.message}`, { variant: 'success' });
-          } catch (error : any) {
-            console.log(error);
-            enqueueSnackbar(`Error: ${error.response.data.error}`, { variant: 'error' });
+          } catch (error: unknown) {
+            if (isErrorWithResponse(error)) {
+              enqueueSnackbar(`Error: ${error.response.data.error}`, { variant: 'error' });
+            }
           }
         }
       };
@@ -84,15 +59,10 @@ function App() {
     } else {
       enqueueSnackbar('Error: Please select a file to upload.', { variant: 'error' });
     }
-  };
+  }
 
   return (
     <>
-      {/* <Autocomplete
-      options={repos}
-      renderInput={(params) => <TextField {...params} label="Dataset ID" placeholder='Select a dataset id' className='w-full' />}
-      onChange = {(_, value) => {updateSelectedRepo(value)}}
-    /> */}
       <SnackbarProvider
         autoHideDuration={6000}
         anchorOrigin={{ vertical: 'top', horizontal: 'right' }}
@@ -106,21 +76,26 @@ function App() {
           type="text"
           onChange={(event) => updateSelectedRepo(event.target.value)}
         />
-        <input
-          accept="*/*"
-          style={{ display: 'none' }}
-          id="file-upload"
-          type="file"
-          onChange={handleFileChange}
-        />
+
         <label htmlFor="file-upload">
-          <Button onClick={handleButtonClick} startIcon={<CloudUploadIcon />} variant="contained">
+          <input
+            accept="*/*"
+            style={{ display: 'none' }}
+            id="file-upload"
+            type="file"
+            onChange={handleFileChange}
+          />
+          <Button
+            onClick={() => handleUpload()}
+            startIcon={<CloudUploadIcon />}
+            variant="contained"
+          >
             Upload File
           </Button>
         </label>
         <Typography>{uploadedFile && `File uploaded: ${uploadedFile.name}`}</Typography>
 
-        <Button variant="contained" onClick={handleSubmit}>
+        <Button variant="contained" onClick={() => handleSubmit()}>
           Submit
         </Button>
       </div>
