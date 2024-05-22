@@ -8,14 +8,14 @@ import { updateURL } from './utils/constants';
 import { isErrorWithResponse } from './utils/type';
 
 function App() {
-  const [selectedRepo, setSelectedRepo] = useState<string>('');
+  const [datasetID, setDatasetID] = useState<string>('');
   const [uploadedFile, setUploadedFile] = useState<File | null>(null);
 
   function updateSelectedRepo(value: string | null) {
     if (value !== null) {
-      setSelectedRepo(value);
+      setDatasetID(value);
     } else {
-      setSelectedRepo('');
+      setDatasetID('');
     }
   }
 
@@ -30,7 +30,7 @@ function App() {
   }
 
   async function handleSubmit() {
-    if (selectedRepo === '') {
+    if (datasetID === '') {
       enqueueSnackbar('Error: Please enter a dataset id.', { variant: 'error' });
     } else if (uploadedFile) {
       const reader = new FileReader();
@@ -38,7 +38,7 @@ function App() {
         const content = readEvent.target?.result;
         if (typeof content === 'string') {
           try {
-            const response = await axios.put(`${updateURL}=${selectedRepo}`, content, {
+            const response = await axios.put(`${updateURL}=${datasetID}`, content, {
               headers: {
                 'Content-Type': 'application/json',
               },
@@ -70,6 +70,7 @@ function App() {
       />
       <div className="flex h-[70vh] flex-col items-center justify-center space-y-3">
         <TextField
+          data-cy="dataset-id-field"
           label="Dataset ID"
           placeholder="dataset id"
           required
@@ -86,6 +87,7 @@ function App() {
             onChange={handleFileChange}
           />
           <Button
+            data-cy="upload-file-button"
             onClick={() => handleUpload()}
             startIcon={<CloudUploadIcon />}
             variant="contained"
@@ -95,7 +97,7 @@ function App() {
         </label>
         <Typography>{uploadedFile && `File uploaded: ${uploadedFile.name}`}</Typography>
 
-        <Button variant="contained" onClick={() => handleSubmit()}>
+        <Button data-cy="submit-button" variant="contained" onClick={() => handleSubmit()}>
           Submit
         </Button>
       </div>
