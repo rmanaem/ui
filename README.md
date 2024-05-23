@@ -61,7 +61,7 @@ NB_PASSWORD=admin
 ```
 
 :warning: The protocol matters here.
-If you wish to use the Neurobagel remote API, ensure your `NB_API_QUERY_URL` uses `https` instead of `http`.
+If you wish to use the Neurobagel remote API, ensure your `NB_OPENNEURO_UPLOADER_API` uses `https` instead of `http`.
 
 ### Docker installation
 
