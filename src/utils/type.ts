@@ -7,6 +7,7 @@ export interface APIError {
   };
 }
 
+// Using this type guard to catch errors of type APIError when sending requests
 export function isErrorWithResponse(error: unknown): error is APIError {
   const e = error as APIError;
   return (

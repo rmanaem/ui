@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import { TextField, Button, Typography } from '@mui/material';
 import { SnackbarProvider, enqueueSnackbar } from 'notistack';
 import axios from 'axios';
@@ -10,13 +10,10 @@ import { isErrorWithResponse } from './utils/type';
 function App() {
   const [datasetID, setDatasetID] = useState<string>('');
   const [uploadedFile, setUploadedFile] = useState<File | null>(null);
+  const fileInput = useRef<HTMLInputElement>(null);
 
   function updateSelectedRepo(value: string | null) {
-    if (value !== null) {
-      setDatasetID(value);
-    } else {
-      setDatasetID('');
-    }
+    setDatasetID(value ?? '');
   }
 
   function handleFileChange(event: React.ChangeEvent<HTMLInputElement>) {
@@ -25,8 +22,7 @@ function App() {
   }
 
   function handleUpload() {
-    const fileInput = document.getElementById('file-upload');
-    fileInput?.click();
+    fileInput.current?.click();
   }
 
   async function handleSubmit() {
@@ -51,6 +47,8 @@ function App() {
           } catch (error: unknown) {
             if (isErrorWithResponse(error)) {
               enqueueSnackbar(`Error: ${error.response.data.error}`, { variant: 'error' });
+            } else {
+              enqueueSnackbar(`Error: ${error}`, { variant: 'error' });
             }
           }
         }
@@ -77,9 +75,15 @@ function App() {
           type="text"
           onChange={(event) => updateSelectedRepo(event.target.value)}
         />
-
+        {/*
+         * We have to use a button and an invisible input to trigger the file upload
+         * since MUI doesn't have a native file input.
+         * Once the button is clicked we click the invisible input through DOM manipulation
+         * to trigger the file upload.
+         */}
         <label htmlFor="file-upload">
           <input
+            ref={fileInput}
             accept="*/*"
             style={{ display: 'none' }}
             id="file-upload"
