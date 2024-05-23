@@ -27,15 +27,14 @@ This is a React application, developed in [TypeScript](https://www.typescriptlan
 
 ## Quickstart
 
-### Clone the repo
+To run the tool, you have two options:
 
-```bash
-git clone https://github.com/neurobagel/ui.git
-```
+1. Use our docker image
+2. Do a manual install from the cloned git repo
 
-### Set the environment variables
+but before proceeding with either you need to set the environment variables.
 
-Create a file called `.env` in the root of the repository to store the environment variables used by the app.
+### Mandatory configuration
 
 | Environment variable      | Type   | Required | Default value if not set | Example                |
 | ------------------------- | ------ | -------- | ------------------------ | ---------------------- |
@@ -51,7 +50,46 @@ OpenNeuro uploader API URL that the tool uses to send requests to upload the fil
 
 Username and password used by the OpenNeuro uploader API.
 
-### Install dependencies
+#### Set the environment variables
+
+To set environment variables, create a `.env` file in the root directory and add the environment variables there. Your `.env` file would look something like this:
+
+```bash
+NB_OPENNEURO_UPLOADER_API=http://upload.neurobagel.org/
+NB_USERNAME=admin
+NB_PASSWORD=admin
+```
+
+:warning: The protocol matters here.
+If you wish to use the Neurobagel remote API, ensure your `NB_OPENNEURO_UPLOADER_API` uses `https` instead of `http`.
+
+### Docker installation
+
+To obtain tool's docker image, simply run the following command in your terminal:
+
+```bash
+docker pull neurobagel/openneuro_uploader_ui:latest
+```
+
+This Docker image includes the latest release of the query tool and a minimal http server to serve the static tool.
+
+To launch the tool Docker container and pass in the `.env` file you have created, simply run
+
+```bash
+docker run -p 5173:5173 --env-file=.env neurobagel/openneuro_uploader_ui:latest
+```
+
+Then you can access the ui at http://localhost:5173
+
+**Note**: the tool is listening on port `5173` inside the docker container,
+replace port `5173` by the port you would like to expose to the host.
+For example if you'd like to run the tool on port `8000` of your machine you can run the following command:
+
+```bash
+docker run -p 8000:5173 --env-file=.env neurobagel/openneuro_uploader_ui:latest
+```
+
+### Manual installation
 
 To install the tool directly, you'll need [node package manager (npm)](https://www.npmjs.com/) and [Node.js](https://nodejs.org/en/).
 You can find the instructions on installing npm and node in the official [documentation](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
