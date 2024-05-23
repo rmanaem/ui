@@ -52,7 +52,7 @@ Username and password used by the OpenNeuro upload API.
 
 #### Set the environment variables
 
-To set environment variables, create a `.env` file in the root directory and add the environment variables there. Your `.env` file would look something like this:
+To set environment variables, create a `.env` file in the root directory and add the environment variables there. If you're using the remote upload API, your `.env` file would look something like this:
 
 ```bash
 NB_OPENNEURO_UPLOAD_API=http://upload.neurobagel.org/
