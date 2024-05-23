@@ -1,61 +1,109 @@
-import Alert from '@mui/material/Alert';
-import Stack from '@mui/material/Stack';
-import Slider from '@mui/material/Slider';
-import { MyButton } from '~/components/MyButton';
-import reactLogo from '~/assets/react.svg';
-import viteLogo from '~/assets/vite.svg';
-
-import { useBears, useBearActions } from '~/stores/bearstore';
-
+import { useState, useRef } from 'react';
+import { TextField, Button, Typography } from '@mui/material';
+import { SnackbarProvider, enqueueSnackbar } from 'notistack';
+import axios from 'axios';
+import CloudUploadIcon from '@mui/icons-material/CloudUpload';
 import './App.css';
-
-function BasicAlerts() {
-  return (
-    <Stack sx={{ width: '100%' }} spacing={2}>
-      <Alert severity="error">This is an error alert — check it out!</Alert>
-      <Alert severity="warning">This is a warning alert — check it out!</Alert>
-      <Alert severity="success">This is a success alert — check it out!</Alert>
-    </Stack>
-  );
-}
+import { updateURL } from './utils/constants';
+import { isErrorWithResponse } from './utils/type';
 
 function App() {
-  const bears = useBears();
-  const { increasePopulation, removeAllBears, updateBears } = useBearActions();
+  const [datasetID, setDatasetID] = useState<string>('');
+  const [uploadedFile, setUploadedFile] = useState<File | null>(null);
+  const fileInput = useRef<HTMLInputElement>(null);
+
+  function updateSelectedRepo(value: string | null) {
+    setDatasetID(value ?? '');
+  }
+
+  function handleFileChange(event: React.ChangeEvent<HTMLInputElement>) {
+    const file = event.target.files?.[0] || null;
+    setUploadedFile(file);
+  }
+
+  function handleUpload() {
+    fileInput.current?.click();
+  }
+
+  async function handleSubmit() {
+    if (datasetID === '') {
+      enqueueSnackbar('Error: Please enter a dataset id.', { variant: 'error' });
+    } else if (uploadedFile) {
+      const reader = new FileReader();
+      reader.onload = async (readEvent) => {
+        const content = readEvent.target?.result;
+        if (typeof content === 'string') {
+          try {
+            const response = await axios.put(`${updateURL}=${datasetID}`, content, {
+              headers: {
+                'Content-Type': 'application/json',
+              },
+              auth: {
+                username: import.meta.env.NB_USERNAME,
+                password: import.meta.env.NB_PASSWORD,
+              },
+            });
+            enqueueSnackbar(`Success: ${response.data.message}`, { variant: 'success' });
+          } catch (error: unknown) {
+            if (isErrorWithResponse(error)) {
+              enqueueSnackbar(`Error: ${error.response.data.error}`, { variant: 'error' });
+            } else {
+              enqueueSnackbar(`Error: ${error}`, { variant: 'error' });
+            }
+          }
+        }
+      };
+      reader.readAsText(uploadedFile);
+    } else {
+      enqueueSnackbar('Error: Please select a file to upload.', { variant: 'error' });
+    }
+  }
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank" rel="noreferrer">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <MyButton />
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <div className="card">
-        <h1>Count of bears: {bears}</h1>
-        <button type="button" onClick={() => increasePopulation(1)}>
-          Increase population
-        </button>
-        <button type="button" onClick={() => removeAllBears()}>
-          Remove bears
-        </button>
-        <input onChange={(e) => updateBears(parseInt(e.currentTarget.value, 10))} value={bears} />
-      </div>
-      <p className="read-the-docs">Click on the Vite and React logos to learn more</p>
-      <BasicAlerts />
-      <h1 className="bg-red-500 text-3xl font-bold underline">Hello world!</h1>
-      <div>
-        <Slider defaultValue={30} />
-        <Slider defaultValue={30} className="text-orange-600" />
+      <SnackbarProvider
+        autoHideDuration={6000}
+        anchorOrigin={{ vertical: 'top', horizontal: 'right' }}
+        maxSnack={7}
+      />
+      <div className="flex h-[70vh] flex-col items-center justify-center space-y-3">
+        <TextField
+          data-cy="dataset-id-field"
+          label="Dataset ID"
+          placeholder="dataset id"
+          required
+          type="text"
+          onChange={(event) => updateSelectedRepo(event.target.value)}
+        />
+        {/*
+         * We have to use a button and an invisible input to trigger the file upload
+         * since MUI doesn't have a native file input.
+         * Once the button is clicked we click the invisible input through DOM manipulation
+         * to trigger the file upload.
+         */}
+        <label htmlFor="file-upload">
+          <input
+            ref={fileInput}
+            accept="*/*"
+            style={{ display: 'none' }}
+            id="file-upload"
+            type="file"
+            onChange={handleFileChange}
+          />
+          <Button
+            data-cy="upload-file-button"
+            onClick={() => handleUpload()}
+            startIcon={<CloudUploadIcon />}
+            variant="contained"
+          >
+            Upload File
+          </Button>
+        </label>
+        <Typography>{uploadedFile && `File uploaded: ${uploadedFile.name}`}</Typography>
+
+        <Button data-cy="submit-button" variant="contained" onClick={() => handleSubmit()}>
+          Submit
+        </Button>
       </div>
     </>
   );
