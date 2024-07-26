@@ -30,7 +30,7 @@
     "zustand": "^4.5.2"
   },
   "devDependencies": {
-    "@cypress/code-coverage": "^3.12.41",
+    "@cypress/code-coverage": "^3.12.44",
     "@istanbuljs/nyc-config-typescript": "^1.0.2",
     "@testing-library/react": "^16.0.0",
     "@types/node": "^20.14.10",
