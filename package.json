@@ -33,7 +33,7 @@
     "@cypress/code-coverage": "^3.12.44",
     "@istanbuljs/nyc-config-typescript": "^1.0.2",
     "@testing-library/react": "^16.0.0",
-    "@types/node": "^20.14.10",
+    "@types/node": "^22.4.1",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@typescript-eslint/eslint-plugin": "^7.17.0",
