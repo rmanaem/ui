@@ -36,11 +36,9 @@ jobs:
           ./fetch-repos.sh
 
       - name: Commit changes
-        env:
-            GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
         run: |
-          git config --global user.name 'Neurobagel Bot'
-          git config --global user.email '<>'
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<>"
           git add ./src/assets/repos.json
           git commit -m "Updated repos.json with latest repository names"
-          git push
+          git push origin feat-80
