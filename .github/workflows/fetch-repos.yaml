@@ -39,7 +39,7 @@ jobs:
         run: |
           git config --global user.name 'Neurobagel Bot'
           git config --global user.email '<>'
-          git add repos.json
+          git add ./src/assets/repos.json
           git commit -m "Updated repos.json with latest repository names"
           git push
         env:

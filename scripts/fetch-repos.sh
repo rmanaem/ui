@@ -2,7 +2,7 @@
 
 # Define variables
 ORG="OpenNeuroDatasets-JSONLD"
-OUTPUT_FILE="repos.json"
+OUTPUT_FILE="../src/assets/repos.json"
 TOKEN="$TOKEN"  # Use the token passed from the GitHub Actions workflow
 
 # Initialize an empty array to hold repository names
