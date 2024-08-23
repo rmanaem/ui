@@ -15,7 +15,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up jq
         run: sudo apt-get install jq
@@ -30,8 +30,10 @@ jobs:
       - name: Run fetch-repos.sh
         env:
           TOKEN: ${{ steps.generate-token.outputs.token }}
+        working-directory: code
         run: |
-          pwd
+          chmod +x fetch-repos.sh
+          ./fetch-repos.sh
 
       - name: Commit changes
         run: |
