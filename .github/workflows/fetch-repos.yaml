@@ -43,4 +43,4 @@ jobs:
           git commit -m "Updated repos.json with latest repository names"
           git push
         env:
-          GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
+          GITHUB_TOKEN: ${{ secrets.NB_PR_PAT }}
