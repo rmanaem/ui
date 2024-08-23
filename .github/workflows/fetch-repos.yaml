@@ -1,0 +1,45 @@
+name: Fetch Repositories
+
+on:
+  push:
+    branches:
+      - feat-80
+  # schedule:
+    # Run every week
+    # - cron: '0 0 * * 0' # Runs every Sunday at midnight UTC
+  workflow_dispatch: # Allows manual triggering of the workflow
+
+jobs:
+  fetch-repos:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up jq
+        run: sudo apt-get install jq
+
+      - name: Generate a token
+        id: generate-token
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ vars.NB_BOT_ID }}
+          private-key: ${{ secrets.NB_BOT_KEY }}
+
+      - name: Run fetch-repos.sh
+        env:
+          TOKEN: ${{ steps.generate-token.outputs.token }}
+        run: |
+          chmod +x fetch-repos.sh
+          ./fetch-repos.sh
+
+      - name: Commit changes
+        run: |
+          git config --global user.name 'Neurobagel Bot'
+          git config --global user.email '<>'
+          git add repos.json
+          git commit -m "Updated repos.json with latest repository names"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
