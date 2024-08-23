@@ -3,7 +3,7 @@
 # Define variables
 ORG="OpenNeuroDatasets-JSONLD"
 OUTPUT_FILE="../src/assets/repos.json"
-TOKEN="$TOKEN"  # Use the token passed from the GitHub Actions workflow
+GH_TOKEN="$GH_TOKEN"  # Use the GH_TOKEN passed from the GitHub Actions workflow
 
 # Initialize an empty array to hold repository names
 REPOS=()
@@ -13,8 +13,8 @@ PER_PAGE=100
 # Fetch all repositories
 while true; do
     # Make the API call
-    if [ -n "$TOKEN" ]; then
-        RESPONSE=$(curl -s -H "Authorization: token $TOKEN" "https://api.github.com/orgs/$ORG/repos?per_page=$PER_PAGE&page=$PAGE")
+    if [ -n "$GH_TOKEN" ]; then
+        RESPONSE=$(curl -s -H "Authorization: GH_TOKEN $GH_TOKEN" "https://api.github.com/orgs/$ORG/repos?per_page=$PER_PAGE&page=$PAGE")
     else
         RESPONSE=$(curl -s "https://api.github.com/orgs/$ORG/repos?per_page=$PER_PAGE&page=$PAGE")
     fi
