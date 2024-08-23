@@ -37,8 +37,10 @@ jobs:
 
       - name: Commit changes
         run: |
-          git config user.name "GitHub Actions Bot"
-          git config user.email "<>"
+          git config user.name "Neurobagel Bot"
+          git config user.email "actions@github.com"
           git add ./src/assets/repos.json
           git commit -m "Updated repos.json with latest repository names"
-          git push origin feat-80
+          git push
+        env:
+          GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
