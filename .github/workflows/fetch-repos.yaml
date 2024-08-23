@@ -40,7 +40,7 @@ jobs:
           git config --global user.name "Neurobagel Bot"
           git config --global user.email "neurobagel-bot[bot]@users.noreply.github.com"
           git add ./src/assets/repos.json
-          git commit -m "[BOT] Updated repos.json with latest repository names"
+          git commit -m "Updated repos.json with latest repository names"
           git push origin feat-80
         env:
           GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
