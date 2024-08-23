@@ -30,7 +30,7 @@ jobs:
       - name: Run fetch-repos.sh
         env:
           TOKEN: ${{ steps.generate-token.outputs.token }}
-        working-directory: code
+        working-directory: scripts
         run: |
           chmod +x fetch-repos.sh
           ./fetch-repos.sh
