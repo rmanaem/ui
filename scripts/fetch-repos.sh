@@ -23,6 +23,9 @@ fetch_repos() {
 # Fetch all repositories
 while true; do
     RESPONSE=$(fetch_repos)
+    
+    # Debug: Print the RESPONSE to see what is being returned
+    echo "RESPONSE: $RESPONSE"  # Debugging line
 
     # Check if the RESPONSE is valid JSON before parsing
     if echo "$RESPONSE" | jq -e . >/dev/null 2>&1; then
@@ -45,6 +48,9 @@ while true; do
 
         # Fetch the contents of the annotations repository
         FILE_RESPONSE=$(curl -s -H "Authorization: token $GH_TOKEN" "https://api.github.com/repos/$ANNOTATIONS_REPO/contents/${JSONLD_FILE}")
+
+        # Debug: Print the FILE_RESPONSE to see what is being returned
+        echo "FILE_RESPONSE for $JSONLD_FILE: $FILE_RESPONSE"  # Debugging line
 
         # Check if the FILE_RESPONSE is valid JSON before parsing
         if echo "$FILE_RESPONSE" | jq -e . >/dev/null 2>&1; then
