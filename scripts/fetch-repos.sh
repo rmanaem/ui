@@ -55,14 +55,13 @@ while true; do
 
         # Add the repository information to the array
         REPOS+=("{\"name\": \"$REPO_NAME\", \"annotated\": $ANNOTATED}")
-        echo "$REPO_NAME is annotated: $ANNOTATED"
     done
 
     # Increment page number
     ((PAGE++))
 done
 
-# Write repository information to the JSON file
+# Write repository information to the JSON file, ensuring it's clean
 echo "[${REPOS[*]}]" | jq '.' > "$OUTPUT_FILE"
 
 # Debug: Output final JSON file content
