@@ -4,8 +4,9 @@
 ORG="OpenNeuroDatasets-JSONLD"
 OUTPUT_FILE="../src/assets/repos.json"
 GH_TOKEN="$GH_TOKEN"  # Use the GH_TOKEN passed from the GitHub Actions workflow
+ANNOTATIONS_REPO="neurobagel/openneuro-annotations"
 
-# Initialize an empty array to hold repository names
+# Initialize an empty array to hold repository objects
 REPOS=()
 PAGE=1
 PER_PAGE=100
@@ -14,28 +15,39 @@ PER_PAGE=100
 while true; do
     # Make the API call
     if [ -n "$GH_TOKEN" ]; then
-        RESPONSE=$(curl -s -H "Authorization: GH_TOKEN $GH_TOKEN" "https://api.github.com/orgs/$ORG/repos?per_page=$PER_PAGE&page=$PAGE")
+        RESPONSE=$(curl -s -H "Authorization: token $GH_TOKEN" "https://api.github.com/orgs/$ORG/repos?per_page=$PER_PAGE&page=$PAGE")
     else
         RESPONSE=$(curl -s "https://api.github.com/orgs/$ORG/repos?per_page=$PER_PAGE&page=$PAGE")
     fi
 
     # Parse the JSON response to extract repository names
-    NAMES=$(echo "$RESPONSE" | jq -r '.[].name')
+    REPO_NAMES=$(echo "$RESPONSE" | jq -r '.[] | select(.name != ".github") | .name')
 
     # Check if no more repositories were returned
-    if [ -z "$NAMES" ]; then
+    if [ -z "$REPO_NAMES" ]; then
         break
     fi
 
-    # Append repository names to the array
-    for NAME in $NAMES; do
-        REPOS+=("\"$NAME\"")
+    # Check each repository for the .jsonld file in the annotations repo
+    for REPO_NAME in $REPO_NAMES; do
+        JSONLD_FILE="${REPO_NAME}.jsonld"
+        ANNOTATED=false
+        
+        # Check if the .jsonld file exists in the annotations repository
+        FILE_EXISTS=$(curl -s -H "Authorization: token $GH_TOKEN" "https://api.github.com/repos/$ANNOTATIONS_REPO/contents/${JSONLD_FILE}" | jq -r '.name // empty')
+
+        if [ -n "$FILE_EXISTS" ]; then
+            ANNOTATED=true
+        fi
+
+        # Add the repository information to the array
+        REPOS+=("{\"name\": \"$REPO_NAME\", \"annotated\": $ANNOTATED}")
     done
 
     # Increment page number
     ((PAGE++))
 done
 
-# Write repository names to the JSON file
-echo "[${REPOS[*]}]" > "$OUTPUT_FILE"
-echo "Repository names have been fetched and saved to $OUTPUT_FILE"
+# Write repository information to the JSON file
+echo "[${REPOS[*]}]" | jq '.' > "$OUTPUT_FILE"
+echo "Repository information has been fetched and saved to $OUTPUT_FILE"
