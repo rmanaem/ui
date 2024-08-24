@@ -24,13 +24,13 @@ fetch_repos() {
 while true; do
     RESPONSE=$(fetch_repos)
 
-    # Debug: Output the response to check if we're getting data
+    # Debug: Output the raw response
     echo "Response: $RESPONSE" >> debug.log
 
     # Parse the JSON response to extract repository names
     REPO_NAMES=$(echo "$RESPONSE" | jq -r '.[] | select(.name != ".github") | .name')
 
-    # Debug: Output the repository names to verify they are being extracted
+    # Debug: Output the extracted repository names
     echo "Repository Names: $REPO_NAMES" >> debug.log
 
     # Check if no more repositories were returned
