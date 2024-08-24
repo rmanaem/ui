@@ -52,14 +52,8 @@ while true; do
     ((PAGE++))
 done
 
-# Refactor JSON output handling
-if [ ${#REPOS[@]} -eq 0 ]; then
-    # If no repositories were found, write an empty array
-    echo "[]" > "$OUTPUT_FILE"
-else
-    # Join the REPOS array into a single JSON array
-    JSON_ARRAY=$(printf "%s," "${REPOS[@]}" | sed 's/,$//')  # Remove trailing comma
-    echo "[$JSON_ARRAY]" | jq '.' > "$OUTPUT_FILE"
-fi
+# Create JSON output directly, handling empty array case
+JSON_ARRAY=$(printf "%s," "${REPOS[@]}" | sed 's/,$//')  # Remove trailing comma
+echo "[$JSON_ARRAY]" | jq '.' > "$OUTPUT_FILE"
 
 echo "Repository information has been fetched and saved to $OUTPUT_FILE"
