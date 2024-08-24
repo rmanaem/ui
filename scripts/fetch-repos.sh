@@ -24,14 +24,8 @@ fetch_repos() {
 while true; do
     RESPONSE=$(fetch_repos)
 
-    # Debug: Output the raw response
-    echo "Response: $RESPONSE" >> debug.log
-
     # Parse the JSON response to extract repository names
     REPO_NAMES=$(echo "$RESPONSE" | jq -r '.[] | select(.name != ".github") | .name')
-
-    # Debug: Output the extracted repository names
-    echo "Repository Names: $REPO_NAMES" >> debug.log
 
     # Check if no more repositories were returned
     if [ -z "$REPO_NAMES" ]; then
@@ -46,9 +40,6 @@ while true; do
         # Check if the .jsonld file exists in the annotations repository
         FILE_EXISTS=$(curl -s -H "Authorization: token $GH_TOKEN" "https://api.github.com/repos/$ANNOTATIONS_REPO/contents/${JSONLD_FILE}" | jq -r '.name // empty')
 
-        # Debug: Output the result of the file existence check
-        echo "Checking $JSONLD_FILE: $FILE_EXISTS" >> debug.log
-
         if [ -n "$FILE_EXISTS" ]; then
             ANNOTATED=true
         fi
@@ -61,9 +52,14 @@ while true; do
     ((PAGE++))
 done
 
-# Write repository information to the JSON file, ensuring it's clean
-echo "[${REPOS[*]}]" | jq '.' > "$OUTPUT_FILE"
+# Refactor JSON output handling
+if [ ${#REPOS[@]} -eq 0 ]; then
+    # If no repositories were found, write an empty array
+    echo "[]" > "$OUTPUT_FILE"
+else
+    # Join the REPOS array into a single JSON array
+    JSON_ARRAY=$(printf "%s," "${REPOS[@]}" | sed 's/,$//')  # Remove trailing comma
+    echo "[$JSON_ARRAY]" | jq '.' > "$OUTPUT_FILE"
+fi
 
-# Debug: Output final JSON file content
-cat "$OUTPUT_FILE" >> debug.log
 echo "Repository information has been fetched and saved to $OUTPUT_FILE"
