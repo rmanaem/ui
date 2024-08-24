@@ -24,8 +24,14 @@ fetch_repos() {
 while true; do
     RESPONSE=$(fetch_repos)
 
-    # Parse the JSON response to extract repository names
-    REPO_NAMES=$(echo "$RESPONSE" | jq -r '.[] | select(.name != ".github") | .name')
+    # Check if the RESPONSE is valid JSON before parsing
+    if echo "$RESPONSE" | jq -e . >/dev/null 2>&1; then
+        # Parse the JSON response to extract repository names
+        REPO_NAMES=$(echo "$RESPONSE" | jq -r '.[] | select(.name != ".github") | .name')
+    else
+        echo "Error: Invalid JSON received from GitHub API"
+        exit 1
+    fi
 
     # Check if no more repositories were returned
     if [ -z "$REPO_NAMES" ]; then
@@ -36,9 +42,16 @@ while true; do
     for REPO_NAME in $REPO_NAMES; do
         JSONLD_FILE="${REPO_NAME}.jsonld"
         ANNOTATED=false
-        
-        # Check if the .jsonld file exists in the annotations repository
-        FILE_EXISTS=$(curl -s -H "Authorization: token $GH_TOKEN" "https://api.github.com/repos/$ANNOTATIONS_REPO/contents/${JSONLD_FILE}" | jq -r '.name // empty')
+
+        # Fetch the contents of the annotations repository
+        FILE_RESPONSE=$(curl -s -H "Authorization: token $GH_TOKEN" "https://api.github.com/repos/$ANNOTATIONS_REPO/contents/${JSONLD_FILE}")
+
+        # Check if the FILE_RESPONSE is valid JSON before parsing
+        if echo "$FILE_RESPONSE" | jq -e . >/dev/null 2>&1; then
+            FILE_EXISTS=$(echo "$FILE_RESPONSE" | jq -r '.name // empty')
+        else
+            FILE_EXISTS=""
+        fi
 
         if [ -n "$FILE_EXISTS" ]; then
             ANNOTATED=true
