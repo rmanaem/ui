@@ -1,4510 +1,6764 @@
 [
   {
     "name": "ds000001",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000003",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000007",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000006",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000008",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000002",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000005",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000009",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000011",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000017",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000030",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000031",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000053",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000101",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000102",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000108",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000110",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000113",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000114",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000115",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000116",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000117",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000119",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000120",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000121",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000122",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000133",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000138",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000140",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000144",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000148",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000149",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000157",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000168",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000170",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000171",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000172",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000174",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000200",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000201",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000202",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000203",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000205",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000208",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000210",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000212",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000213",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000214",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000217",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000218",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000219",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000220",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000221",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000222",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000224",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000228",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000229",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000231",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000232",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000233",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000234",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000235",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000236",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000238",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000239",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000240",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000243",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000244",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000245",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000246",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000247",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000248",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000249",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000253",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000254",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000256",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001021",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001110",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001131",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001161",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001167",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001168",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001178",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001226",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001228",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001229",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001232",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001233",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001241",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001242",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001297",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001299",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001306",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001338",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001344",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001345",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001348",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001353",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001354",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001365",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001371",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001378",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001379",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001386",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001399",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001408",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001415",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001417",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001419",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001420",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001421",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001430",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001439",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001450",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001454",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001461",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001482",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001486",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001491",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001499",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001510",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001511",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001517",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001525",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001529",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001534",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001541",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001545",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001547",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001553",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001554",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001555",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001566",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001590",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001597",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001608",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001618",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001619",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001652",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001653",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001705",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001720",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001722",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001725",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001728",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001734",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001740",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001743",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001747",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001748",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001761",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001771",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001784",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001796",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001814",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001818",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001838",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001840",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001848",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001868",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001882",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001883",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001890",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001894",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001919",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001927",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001928",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001942",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001981",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002000",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002006",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002011",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002013",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002014",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002016",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002033",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002041",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002080",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002105",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002116",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002134",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002149",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002154",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002158",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002168",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002169",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002185",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002236",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002242",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002250",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002270",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002278",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002307",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002322",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002330",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002336",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002338",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002345",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002351",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002363",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002366",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002382",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002393",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002411",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002419",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002422",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002424",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002522",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002543",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002547",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002550",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002551",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002578",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002603",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002606",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002643",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002647",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002655",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002674",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002683",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002684",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002685",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002687",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002702",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002711",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002712",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002717",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002718",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002725",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002727",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002731",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002732",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002737",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002741",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002743",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002748",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002749",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002750",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002773",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002776",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002785",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002790",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002793",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002797",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002799",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002813",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002814",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002835",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002837",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002842",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002843",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002848",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002862",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002872",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002878",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002879",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002886",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002894",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002896",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002898",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002905",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002912",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002936",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002938",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002939",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002940",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002941",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002982",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002994",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002995",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003005",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003007",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003008",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003011",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003017",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003020",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003028",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003037",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003047",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003076",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003082",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003083",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003095",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003097",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003104",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003114",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003126",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003136",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003146",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003171",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003176",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003192",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003216",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003233",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003242",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003338",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003340",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003342",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003346",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003354",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003357",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003381",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003382",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003392",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003397",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003401",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003416",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003419",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003424",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003425",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003427",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003436",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003452",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003453",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003454",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003459",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003464",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003465",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003466",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003468",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003469",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003470",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003487",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003495",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003499",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003500",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003505",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003507",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003511",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003521",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003524",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003542",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003545",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003548",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003550",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003553",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003554",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003568",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003569",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003574",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003592",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003604",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003606",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003612",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003633",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003639",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003643",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003645",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003647",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003653",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003688",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003696",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003701",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003709",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003711",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003717",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003721",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003745",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003754",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003758",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003763",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003770",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003772",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003777",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003782",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003787",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003789",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003791",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003799",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003812",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003821",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003823",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003826",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003830",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003831",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003848",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003858",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003922",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003929",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003949",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003965",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003967",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003972",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003990",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003999",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004006",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004021",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004024",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004042",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004044",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004056",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004068",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004073",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004078",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004091",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004092",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004094",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004101",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004107",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004109",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004114",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004116",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004128",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004129",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004130",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004131",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004134",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004141",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004142",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004145",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004146",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004158",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004161",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004169",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004173",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004192",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004194",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004212",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004213",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004217",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004219",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004226",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004230",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004254",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004280",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004283",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004285",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004299",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004301",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004302",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004331",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004332",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004339",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004346",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004349",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004392",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004393",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004400",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004401",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000223",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004215",
-    "annotated": true
+    "annotated": true,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004033",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000051",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds000052",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds004883",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds000105",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds000107",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds000109",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds000158",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds000164",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds000204",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds000206",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds000216",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds000237",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds000241",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds000255",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds000258",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds001019",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds001037",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds001105",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds001107",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds001132",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds001145",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds001218",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds001235",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds001246",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds001247",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds001293",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds001302",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds001339",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds001357",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds001497",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds001506",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds001521",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds001551",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds001563",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds001576",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds001583",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds001591",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds001595",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds001600",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds001607",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds001612",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds001614",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds001621",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds001634",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds001635",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds001715",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds001745",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds001751",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds001762",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds001769",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds001775",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds001780",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds001785",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001787",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001810",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001832",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds001839",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds001847",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds001849",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds001875",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds001907",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds001912",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds001921",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds001923",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds001926",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds001945",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds001946",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds001966",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds001971",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds001972",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds001978",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds001984",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002001",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002034",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002040",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002076",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002087",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002094",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds002144",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002153",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002155",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002156",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002165",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002179",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002181",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds002207",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002218",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002237",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002241",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002274",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002293",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002294",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002295",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002306",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002311",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002316",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002320",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002328",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002355",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002358",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002367",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002372",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002374",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002380",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002513",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002549",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002574",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002596",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002602",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002608",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002609",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002614",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002620",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002634",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002672",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002675",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002680",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002691",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002715",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002720",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds002721",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds002722",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002723",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds002724",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds002726",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002733",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002734",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002735",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002738",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002739",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002761",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002766",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002770",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002778",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002791",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds002809",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002833",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds002841",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002844",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002868",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002870",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002873",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": true
   },
   {
     "name": "ds002885",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds002893",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds002908",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002979",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": true
   },
   {
     "name": "ds002989",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds002990",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003004",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003012",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds003023",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003027",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003029",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003039",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003043",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds003059",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003061",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003078",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003085",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003089",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003090",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003094",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003096",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003098",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003103",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003138",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003145",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003148",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003151",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003170",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003190",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds003194",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds003195",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds003325",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003343",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003345",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003352",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003374",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003380",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003404",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": true
   },
   {
     "name": "ds003417",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003420",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003421",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003430",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003433",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003434",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003437",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003438",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003439",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003440",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003441",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003442",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003443",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003444",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003445",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003446",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003455",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003458",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003463",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003474",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003478",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003481",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003483",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds003490",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003498",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003506",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003509",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003516",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003517",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003518",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003519",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003520",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003522",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003523",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003540",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003552",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003555",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003563",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003565",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003570",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds003590",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003599",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003602",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003620",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003626",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003638",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003642",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003646",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003655",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003659",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003661",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003669",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003670",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003673",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003682",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003684",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003690",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003691",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds003694",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds003702",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003703",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003707",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003708",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds003710",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003714",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003715",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003716",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003720",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003722",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003739",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003751",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003752",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003753",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003764",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003766",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003768",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003774",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003775",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003778",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003798",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003800",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003801",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003805",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003810",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003816",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds003822",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003825",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003834",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003835",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003836",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003838",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003844",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003846",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003849",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003850",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003851",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003871",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003872",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003876",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003885",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003887",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003928",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003944",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003947",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003950",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003959",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003969",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003974",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003987",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003988",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003989",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds003993",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds004000",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004007",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds004009",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds004010",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004011",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004012",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004015",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004017",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004018",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004019",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004022",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004038",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds004040",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004043",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds004065",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds004067",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds004075",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds004080",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004081",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds004086",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds004097",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds004100",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004102",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds004103",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds004105",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004106",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004117",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004118",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004119",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004120",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004121",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004122",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004123",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004127",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds004144",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds004147",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004148",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004151",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004152",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004166",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004182",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004186",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004187",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds004196",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004199",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004200",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004228",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds004229",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004252",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds004256",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004259",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds004261",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004262",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004264",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004265",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds004271",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004274",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004276",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004278",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004279",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004284",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004286",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds004295",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004305",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004306",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004312",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004315",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004317",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004324",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004327",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004330",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004341",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004347",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004348",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004350",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004356",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004357",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004359",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004360",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004362",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004367",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004368",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004369",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004370",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004381",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004386",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004395",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004398",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds004406",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004408",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004440",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004441",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds004443",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004444",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004446",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004447",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004448",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004450",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds004455",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004456",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004457",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004458",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds004460",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004465",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds004466",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004467",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004469",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004470",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004471",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004473",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004475",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004477",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004478",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004482",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004483",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004484",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004488",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004489",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004493",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004496",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004498",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004499",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004502",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004504",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004505",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004507",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004509",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds004510",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004511",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004513",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004515",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004516",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004519",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004520",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds004521",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds004529",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004532",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004533",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004539",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004542",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004544",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004551",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004552",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004553",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds004554",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004556",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004557",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004560",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004561",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004562",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004563",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004564",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004569",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004572",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004574",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004577",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004579",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004580",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004581",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004584",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004588",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004589",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004590",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004592",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004594",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds004595",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004597",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004598",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004602",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004603",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004604",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004605",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004611",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004616",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004620",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004621",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004624",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004625",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004626",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004627",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004631",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004632",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004635",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004636",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004640",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds004642",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004644",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004645",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004647",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004648",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004650",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004654",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004656",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004657",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004660",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004661",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004662",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004663",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds004666",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds004670",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds004692",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004693",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004696",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004697",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004698",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004703",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004706",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004710",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds004711",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004712",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004715",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds004717",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004718",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004720",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004725",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004730",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004731",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004733",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004737",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004738",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004742",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds004743",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004744",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds004745",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004746",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004752",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004765",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds004767",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds004770",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004771",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004775",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004776",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004783",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004784",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004785",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004786",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004787",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004789",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004791",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004795",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004796",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004797",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004798",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004802",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004808",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004809",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004814",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004815",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004816",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004817",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004819",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004829",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds004830",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004835",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004837",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds004840",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004841",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004842",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004843",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004844",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004848",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004849",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004850",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004851",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004852",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004853",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004854",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004855",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004859",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004860",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004865",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004866",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004868",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004869",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004872",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004884",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004889",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004894",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004902",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004906",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004909",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004910",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004913",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004920",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004926",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004929",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004934",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004935",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004937",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004942",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004943",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004944",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004945",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004946",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds004951",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004952",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004956",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004958",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004959",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004962",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004965",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004973",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004993",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004995",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds004996",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004998",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds005003",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds005007",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds005009",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds005012",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds005017",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds005021",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds005025",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds005026",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds005027",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds005028",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds005034",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds005038",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds005040",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds005047",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds005048",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds005050",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds005059",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds005063",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds005065",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds005069",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds005072",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds005073",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds005077",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds005079",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds005083",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds005085",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds005088",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds005089",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds005093",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds005095",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds005096",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds005106",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds005114",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds005115",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds005118",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds005121",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds005125",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds004125",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds005126",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds005131",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004977",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds005123",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds005138",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds005139",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds005148",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds005169",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds005016",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds004917",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds005170",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds005188",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds005056",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds005191",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds005194",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds005207",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004928",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds004957",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds005189",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds005233",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds004582",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds005165",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds005216",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds005234",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds005241",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds003814",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds005143",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds005262",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds005237",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds005263",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds005264",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds005265",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds005266",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds005250",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds005267",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds005230",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds005270",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds005273",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds005258",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds005279",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds005107",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004587",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds005296",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds005299",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   },
   {
     "name": "ds005239",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds004980",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds005304",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": false,
+    "participants.json": false
   },
   {
     "name": "ds005305",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": true
   },
   {
     "name": "ds005274",
-    "annotated": false
+    "annotated": false,
+    "participants.tsv": true,
+    "participants.json": false
   }
 ]
