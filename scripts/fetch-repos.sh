@@ -42,6 +42,8 @@ while true; do
     for REPO_NAME in $REPO_NAMES; do
         JSONLD_FILE="${REPO_NAME}.jsonld"
         ANNOTATED=false
+        TSV_EXISTS=false
+        JSON_EXISTS=false
 
         # Fetch the contents of the annotations repository
         FILE_RESPONSE=$(curl -s -H "Authorization: token $GH_TOKEN" "https://api.github.com/repos/$ANNOTATIONS_REPO/contents/${JSONLD_FILE}")
@@ -57,8 +59,20 @@ while true; do
             ANNOTATED=true
         fi
 
+        # Check for participants.tsv in the repository
+        TSV_RESPONSE=$(curl -s -H "Authorization: token $GH_TOKEN" "https://api.github.com/repos/$ORG/$REPO_NAME/contents/participants.tsv")
+        if echo "$TSV_RESPONSE" | jq -e '.name // empty' >/dev/null 2>&1; then
+            TSV_EXISTS=true
+        fi
+
+        # Check for participants.json in the repository
+        JSON_RESPONSE=$(curl -s -H "Authorization: token $GH_TOKEN" "https://api.github.com/repos/$ORG/$REPO_NAME/contents/participants.json")
+        if echo "$JSON_RESPONSE" | jq -e '.name // empty' >/dev/null 2>&1; then
+            JSON_EXISTS=true
+        fi
+
         # Add the repository information to the array
-        REPOS+=("{\"name\": \"$REPO_NAME\", \"annotated\": $ANNOTATED}")
+        REPOS+=("{\"name\": \"$REPO_NAME\", \"annotated\": $ANNOTATED, \"participants.tsv\": $TSV_EXISTS, \"participants.json\": $JSON_EXISTS}")
     done
 
     # Increment page number
