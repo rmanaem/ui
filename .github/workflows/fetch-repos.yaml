@@ -39,12 +39,8 @@ jobs:
         run: |
           git config --global user.name "Neurobagel Bot"
           git config --global user.email "neurobagel-bot[bot]@users.noreply.github.com"
-          if [[ $(git diff --name-only) == "./src/assets/repos.json" ]]; then
-            git add ./src/assets/repos.json
-            git commit -m "Updated repos.json with latest repository names"
-            git push origin feat-80
-          else
-            echo "No changes detected in repos.json"
-          fi
+          git add ./src/assets/repos.json
+          git commit -m "Updated repos.json"
+          git push origin feat-80
         env:
           GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
