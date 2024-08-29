@@ -72,7 +72,7 @@ while true; do
         fi
 
         # Add the repository information to the array
-        REPOS+=("{\"name\": \"$REPO_NAME\", \"tsv_exists\": $TSV_EXISTS, \"json_exists\": $JSON_EXISTS, \"annotated\": $ANNOTATED}")
+        REPOS+=("{\"name\": \"$REPO_NAME\", \"json_exists\": $JSON_EXISTS, \"tsv_exists\": $TSV_EXISTS, \"annotated\": $ANNOTATED}")
     done
 
     # Increment page number

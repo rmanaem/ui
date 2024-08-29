@@ -39,8 +39,6 @@ jobs:
         run: |
           git config --global user.name "Neurobagel Bot"
           git config --global user.email "neurobagel-bot[bot]@users.noreply.github.com"
-          git add ./src/assets/repos.json
-          git commit -m "Updated repos.json"
-          git push origin feat-80
+          git diff --quiet ./src/assets/repos.json || (git add ./src/assets/repos.json && git commit -m "Updated repos.json" && git push origin feat-80)
         env:
           GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
