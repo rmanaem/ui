@@ -48,9 +48,14 @@ const RepoCard = memo(
         <CardContent>
           <div className="grid grid-cols-4 items-center justify-items-center">
             <Typography variant="h5">
-              <a href={`${ORGURL}${repoName}`} target="_blank" rel="noopener noreferrer">
+              <Button
+                className="text-xl"
+                href={`${ORGURL}${repoName}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 {repoName}
-              </a>
+              </Button>
             </Typography>
             <div>
               <Typography variant="subtitle2">
@@ -59,7 +64,7 @@ const RepoCard = memo(
                     Participants.tsv
                   </Button>
                 ) : (
-                  'Participants.tsv'
+                  <Button disabled>Participants.tsv</Button>
                 )}
               </Typography>
               {tsvExists ? (
@@ -71,11 +76,11 @@ const RepoCard = memo(
             <div>
               <Typography variant="subtitle2">
                 {tsvExists ? (
-                  <Button href="#" onClick={() => handleDownload('participants.json')}>
+                  <Button onClick={() => handleDownload('participants.json')}>
                     Participants.json
                   </Button>
                 ) : (
-                  'Participants.json'
+                  <Button disabled>Participants.json</Button>
                 )}
               </Typography>
               {jsonExists ? (
@@ -85,7 +90,19 @@ const RepoCard = memo(
               )}
             </div>
             <div>
-              <Typography variant="subtitle2">Annotated</Typography>
+              <Typography variant="subtitle2">
+                {annotated ? (
+                  <Button
+                    href={`https://github.com/neurobagel/openneuro-annotations/tree/main/${repoName}.jsonld`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Annotated
+                  </Button>
+                ) : (
+                  <Button disabled>Annotated</Button>
+                )}
+              </Typography>
               {annotated ? (
                 <CheckCircleSharpIcon color="success" />
               ) : (
