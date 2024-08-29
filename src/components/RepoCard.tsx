@@ -2,6 +2,7 @@ import { memo } from 'react';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
+import Button from '@mui/material/Button';
 import CheckCircleSharpIcon from '@mui/icons-material/CheckCircleSharp';
 import CancelSharpIcon from '@mui/icons-material/CancelSharp';
 
@@ -54,9 +55,9 @@ const RepoCard = memo(
             <div>
               <Typography variant="subtitle2">
                 {tsvExists ? (
-                  <a href="#" onClick={() => handleDownload('participants.tsv')}>
+                  <Button onClick={() => handleDownload('participants.tsv')}>
                     Participants.tsv
-                  </a>
+                  </Button>
                 ) : (
                   'Participants.tsv'
                 )}
@@ -70,9 +71,9 @@ const RepoCard = memo(
             <div>
               <Typography variant="subtitle2">
                 {tsvExists ? (
-                  <a href="#" onClick={() => handleDownload('participants.json')}>
+                  <Button href="#" onClick={() => handleDownload('participants.json')}>
                     Participants.json
-                  </a>
+                  </Button>
                 ) : (
                   'Participants.json'
                 )}

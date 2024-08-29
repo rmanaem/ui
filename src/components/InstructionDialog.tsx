@@ -24,7 +24,7 @@ function InstructionDialog({ open, onClose }: { open: boolean; onClose: () => vo
         <DialogContentText>
           Please follow the steps below
           <ol>
-            <li>Find the repository for the dataset you'd like to work on</li>
+            <li>Find the repository for the dataset you&apos;d like to work on</li>
             <ul>
               <li>
                 You can filter through the datasets using the name or status dataset and
@@ -37,7 +37,7 @@ function InstructionDialog({ open, onClose }: { open: boolean; onClose: () => vo
             </ul>
             <li>
               Once you have the files downloaded locally, head over to the{' '}
-              <a href="https://annotate.neurobagel.org/" target="_blank">
+              <a href="https://annotate.neurobagel.org/" target="_blank" rel="noopener noreferrer">
                 Neurobagel Annotation tool
               </a>
             </li>
@@ -47,13 +47,14 @@ function InstructionDialog({ open, onClose }: { open: boolean; onClose: () => vo
                 <a
                   href="https://neurobagel.org/annotation_tool/#annotation-workflow"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   here
                 </a>
               </li>
             </ul>
             <li>
-              Once you're done annotating the dataset, navigate to the upload tab, enter your
+              Once you&apos;re done annotating the dataset, navigate to the upload tab, enter your
               dataset ID, upload your newly annotated participant.json file, and submit
             </li>
           </ol>

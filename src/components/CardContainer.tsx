@@ -17,28 +17,30 @@ function CardContainer({
   const [openDialog, setOpenDialog] = useState(false);
 
   // Memoized function to filter repositories
-  const filteredRepos = useMemo(() => {
-    return repos.filter((repo) => {
-      // Check if the repo name matches any of the name filters
-      const nameMatch = nameFilters.length === 0 || nameFilters.includes(repo.name);
+  const filteredRepos = useMemo(
+    () =>
+      repos.filter((repo) => {
+        // Check if the repo name matches any of the name filters
+        const nameMatch = nameFilters.length === 0 || nameFilters.includes(repo.name);
 
-      // Check if the repo matches the status filters
-      const statusMatch = statusFilters.every((filter) => {
-        switch (filter) {
-          case 'has participants.tsv':
-            return repo.tsv_exists;
-          case 'has participants.json':
-            return repo.json_exists;
-          case 'not annotated':
-            return !repo.annotated;
-          default:
-            return true;
-        }
-      });
+        // Check if the repo matches the status filters
+        const statusMatch = statusFilters.every((filter) => {
+          switch (filter) {
+            case 'has participants.tsv':
+              return repo.tsv_exists;
+            case 'has participants.json':
+              return repo.json_exists;
+            case 'not annotated':
+              return !repo.annotated;
+            default:
+              return true;
+          }
+        });
 
-      return nameMatch && statusMatch;
-    });
-  }, [repos, nameFilters, statusFilters]); // Only recompute when these dependencies change
+        return nameMatch && statusMatch;
+      }),
+    [repos, nameFilters, statusFilters]
+  );
 
   return (
     <div className="grid grid-rows-1">
