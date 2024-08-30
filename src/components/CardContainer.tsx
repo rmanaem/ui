@@ -9,10 +9,12 @@ function CardContainer({
   repos,
   nameFilters,
   statusFilters,
+  onSomeError,
 }: {
   repos: RepoInfo[];
   nameFilters: string[];
   statusFilters: string[];
+  onSomeError: (error: string) => void;
 }) {
   const [openDialog, setOpenDialog] = useState(false);
 
@@ -65,6 +67,7 @@ function CardContainer({
             tsvExists={repo.tsv_exists}
             jsonExists={repo.json_exists}
             annotated={repo.annotated}
+            onSomeError={onSomeError}
           />
         ))}
       </div>

@@ -3,7 +3,7 @@ import { Autocomplete, TextField } from '@mui/material';
 import repos from '../assets/repos.json';
 import CardContainer from './CardContainer';
 
-function Download() {
+function Download({ onSomeError }: { onSomeError: (error: string) => void }) {
   const statusOptions = ['has participants.tsv', 'has participants.json', 'not annotated'];
   const [nameFilters, setNameFilters] = useState<string[]>([]);
   const [statusFilters, setStatusFilters] = useState<string[]>([]);
@@ -55,7 +55,12 @@ function Download() {
         </div>
       </div>
 
-      <CardContainer repos={repos} nameFilters={nameFilters} statusFilters={statusFilters} />
+      <CardContainer
+        repos={repos}
+        nameFilters={nameFilters}
+        statusFilters={statusFilters}
+        onSomeError={onSomeError}
+      />
     </div>
   );
 }

@@ -68,7 +68,7 @@ function App() {
         <Tab label="Upload" data-cy="upload-tab" />
       </Tabs>
       {selectedTab === 0 ? (
-        <Download />
+        <Download onSomeError={(error) => enqueueSnackbar(error, { variant: 'error' })} />
       ) : (
         <Upload
           onUpdateSelectedRepo={(value) => updateSelectedRepo(value)}
