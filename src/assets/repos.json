@@ -1,6764 +1,6764 @@
 [
   {
     "name": "ds000001",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000003",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000007",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000006",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000008",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000002",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000005",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000009",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000011",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000017",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000030",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000031",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000053",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000101",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000102",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000108",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000110",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000113",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds000114",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000115",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000116",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000117",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000119",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000120",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000121",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000122",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000133",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000138",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000140",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000144",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000148",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000149",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000157",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000168",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000170",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000171",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000172",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds000174",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds000200",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000201",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000202",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000203",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000205",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000208",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000210",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000212",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000213",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000214",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds000217",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000218",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000219",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000220",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000221",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000222",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000224",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000228",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000229",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000231",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000232",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds000233",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000234",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000235",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000236",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000238",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000239",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000240",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000243",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000244",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000245",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000246",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000247",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000248",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000249",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000253",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000254",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds000256",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001021",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds001110",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001131",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001161",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds001167",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds001168",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001178",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001226",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds001228",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001229",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001232",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001233",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001241",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001242",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001297",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001299",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001306",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001338",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001344",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001345",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001348",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001353",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001354",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001365",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001371",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001378",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds001379",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001386",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001399",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001408",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001415",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds001417",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001419",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001420",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001421",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001430",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001439",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001450",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001454",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001461",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001482",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds001486",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001491",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001499",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001510",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001511",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001517",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001525",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001529",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001534",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds001541",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds001545",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001547",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds001553",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001554",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001555",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001566",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds001590",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds001597",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001608",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001618",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001619",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001652",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001653",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds001705",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001720",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds001722",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001725",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds001728",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001734",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001740",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001743",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001747",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001748",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001761",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001771",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001784",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001796",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001814",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001818",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds001838",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds001840",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001848",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds001868",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001882",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds001883",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds001890",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds001894",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001919",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001927",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001928",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001942",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds001981",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002000",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002006",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002011",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002013",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002014",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds002016",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds002033",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds002041",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002080",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002105",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002116",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds002134",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds002149",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds002154",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds002158",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002168",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002169",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002185",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002236",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002242",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002250",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002270",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002278",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002307",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds002322",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds002330",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds002336",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002338",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002345",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002351",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds002363",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds002366",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds002382",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002393",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002411",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002419",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002422",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002424",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002522",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002543",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002547",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002550",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002551",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds002578",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002603",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002606",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds002643",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002647",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002655",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002674",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds002683",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002684",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002685",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002687",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002702",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds002711",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds002712",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds002717",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds002718",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002725",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002727",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds002731",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds002732",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002737",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002741",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds002743",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002748",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002749",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002750",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds002773",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002776",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds002785",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002790",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002793",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002797",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002799",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002813",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002814",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002835",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002837",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002842",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002843",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002848",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds002862",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002872",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002878",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002879",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002886",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002894",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002896",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002898",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002905",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002912",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002936",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002938",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002939",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002940",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds002941",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002982",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds002994",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds002995",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003005",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003007",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003008",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003011",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003017",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003020",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003028",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003037",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003047",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003076",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003082",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003083",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003095",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003097",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003104",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003114",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003126",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003136",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003146",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003171",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003176",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003192",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003216",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003233",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003242",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003338",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003340",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003342",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003346",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003354",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003357",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003381",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003382",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003392",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003397",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003401",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003416",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003419",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003424",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003425",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003427",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003436",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003452",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003453",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003454",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003459",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003464",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003465",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003466",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003468",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003469",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003470",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003487",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003495",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003499",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003500",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003505",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003507",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003511",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003521",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003524",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003542",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003545",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003548",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003550",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003553",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003554",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003568",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003569",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003574",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003592",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003604",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003606",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003612",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003633",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003639",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003643",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003645",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003647",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003653",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003688",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003696",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003701",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003709",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003711",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003717",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003721",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003745",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003754",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003758",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003763",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003770",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003772",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003777",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003782",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003787",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003789",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003791",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003799",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003812",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003821",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003823",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003826",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003830",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003831",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003848",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003858",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003922",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003929",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003949",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003965",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003967",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003972",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003990",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds003999",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds004006",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds004021",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004024",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds004042",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds004044",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004056",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds004068",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds004073",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds004078",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds004091",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds004092",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004094",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds004101",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds004107",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds004109",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds004114",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004116",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds004128",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds004129",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds004130",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds004131",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds004134",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004141",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds004142",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds004145",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds004146",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds004158",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds004161",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds004169",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds004173",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds004192",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds004194",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds004212",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004213",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds004217",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds004219",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds004226",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004230",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds004254",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds004280",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds004283",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds004285",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds004299",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004301",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds004302",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds004331",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds004332",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004339",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds004346",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds004349",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds004392",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds004393",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004400",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004401",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds000223",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004215",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": true
   },
   {
     "name": "ds004033",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds000051",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds000052",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004883",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds000105",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds000107",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds000109",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds000158",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds000164",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds000204",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds000206",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds000216",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds000237",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds000241",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds000255",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds000258",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds001019",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds001037",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds001105",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds001107",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds001132",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds001145",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds001218",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds001235",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds001246",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds001247",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds001293",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds001302",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds001339",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds001357",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds001497",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds001506",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds001521",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds001551",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds001563",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds001576",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds001583",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds001591",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds001595",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds001600",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds001607",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds001612",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds001614",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds001621",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds001634",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds001635",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds001715",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds001745",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds001751",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds001762",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds001769",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds001775",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds001780",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds001785",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds001787",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds001810",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds001832",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds001839",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds001847",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds001849",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds001875",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds001907",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds001912",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds001921",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds001923",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds001926",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds001945",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds001946",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds001966",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds001971",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds001972",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds001978",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds001984",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002001",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002034",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds002040",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002076",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002087",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002094",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002144",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002153",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002155",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002156",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002165",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002179",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002181",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002207",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002218",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002237",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002241",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002274",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002293",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002294",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002295",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002306",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002311",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002316",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002320",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002328",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002355",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002358",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002367",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002372",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002374",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002380",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002513",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002549",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002574",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002596",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002602",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002608",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002609",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002614",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002620",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds002634",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002672",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002675",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002680",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds002691",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds002715",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002720",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002721",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002722",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds002723",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002724",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002726",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002733",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002734",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002735",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002738",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002739",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002761",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002766",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002770",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002778",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds002791",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002809",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002833",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002841",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002844",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002868",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002870",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002873",
-    "json_exists": true,
     "tsv_exists": false,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds002885",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002893",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds002908",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002979",
-    "json_exists": true,
     "tsv_exists": false,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds002989",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds002990",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003004",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003012",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003023",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003027",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003029",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003039",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003043",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003059",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003061",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003078",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003085",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003089",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003090",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003094",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003096",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003098",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003103",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003138",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003145",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003148",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003151",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003170",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003190",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003194",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003195",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003325",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003343",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003345",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003352",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003374",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003380",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003404",
-    "json_exists": true,
     "tsv_exists": false,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003417",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003420",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003421",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003430",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003433",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003434",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003437",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003438",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003439",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003440",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003441",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003442",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003443",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003444",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003445",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003446",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003455",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003458",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003463",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003474",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003478",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003481",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003483",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003490",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003498",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003506",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003509",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003516",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003517",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003518",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003519",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003520",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003522",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003523",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003540",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003552",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003555",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003563",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003565",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003570",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003590",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003599",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003602",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003620",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003626",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003638",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003642",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003646",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003655",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003659",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003661",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003669",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003670",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003673",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003682",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003684",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003690",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003691",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003694",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003702",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003703",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003707",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003708",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003710",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003714",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003715",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003716",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003720",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003722",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003739",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003751",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003752",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003753",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003764",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003766",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003768",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003774",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003775",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003778",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003798",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003800",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003801",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003805",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003810",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003816",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003822",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003825",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003834",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003835",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003836",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003838",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003844",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003846",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003849",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003850",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003851",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003871",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003872",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003876",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003885",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003887",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003928",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003944",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003947",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003950",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003959",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003969",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003974",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003987",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003988",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003989",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds003993",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004000",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004007",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004009",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004010",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004011",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004012",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004015",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004017",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004018",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004019",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004022",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004038",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004040",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004043",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004065",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004067",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004075",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004080",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004081",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004086",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004097",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004100",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004102",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004103",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004105",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004106",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004117",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004118",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004119",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004120",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004121",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004122",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004123",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004127",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004144",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004147",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004148",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004151",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004152",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004166",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004182",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004186",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004187",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004196",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004199",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004200",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004228",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004229",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004252",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004256",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004259",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004261",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004262",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004264",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004265",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004271",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004274",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004276",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004278",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004279",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004284",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004286",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004295",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004305",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004306",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004312",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004315",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004317",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004324",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004327",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004330",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004341",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004347",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004348",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004350",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004356",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004357",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004359",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004360",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004362",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004367",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004368",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004369",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004370",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004381",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004386",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004395",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004398",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004406",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004408",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004440",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004441",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004443",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004444",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004446",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004447",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004448",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004450",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004455",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004456",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004457",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004458",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004460",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004465",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004466",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004467",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004469",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004470",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004471",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004473",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004475",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004477",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004478",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004482",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004483",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004484",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004488",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004489",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004493",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004496",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004498",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004499",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004502",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004504",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004505",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004507",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004509",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004510",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004511",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004513",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004515",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004516",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004519",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004520",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004521",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004529",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004532",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004533",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004539",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004542",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004544",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004551",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004552",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004553",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004554",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004556",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004557",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004560",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004561",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004562",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004563",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004564",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004569",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004572",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004574",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004577",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004579",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004580",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004581",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004584",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004588",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004589",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004590",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004592",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004594",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004595",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004597",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004598",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004602",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004603",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004604",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004605",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004611",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004616",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004620",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004621",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004624",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004625",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004626",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004627",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004631",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004632",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004635",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004636",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004640",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004642",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004644",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004645",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004647",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004648",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004650",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004654",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004656",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004657",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004660",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004661",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004662",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004663",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004666",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004670",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004692",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004693",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004696",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004697",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004698",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004703",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004706",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004710",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004711",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004712",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004715",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004717",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004718",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004720",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004725",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004730",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004731",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004733",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004737",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004738",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004742",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004743",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004744",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004745",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004746",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004752",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004765",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004767",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004770",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004771",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004775",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004776",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004783",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004784",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004785",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004786",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004787",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004789",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004791",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004795",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004796",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004797",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004798",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004802",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004808",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004809",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004814",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004815",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004816",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004817",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004819",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004829",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004830",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004835",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004837",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004840",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004841",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004842",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004843",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004844",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004848",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004849",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004850",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004851",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004852",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004853",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004854",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004855",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004859",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004860",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004865",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004866",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004868",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004869",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004872",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004884",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004889",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004894",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004902",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004906",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004909",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004910",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004913",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004920",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004926",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004929",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004934",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004935",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004937",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004942",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004943",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004944",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004945",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004946",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004951",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004952",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004956",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004958",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004959",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004962",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004965",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004973",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004993",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004995",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004996",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004998",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds005003",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds005007",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds005009",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds005012",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds005017",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds005021",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds005025",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds005026",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds005027",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds005028",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds005034",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds005038",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds005040",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds005047",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds005048",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds005050",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds005059",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds005063",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds005065",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds005069",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds005072",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds005073",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds005077",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds005079",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds005083",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds005085",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds005088",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds005089",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds005093",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds005095",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds005096",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds005106",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds005114",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds005115",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds005118",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds005121",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds005125",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004125",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds005126",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds005131",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004977",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds005123",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds005138",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds005139",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds005148",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds005169",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds005016",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004917",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds005170",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds005188",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds005056",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds005191",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds005194",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds005207",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004928",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004957",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds005189",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds005233",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds004582",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds005165",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds005216",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds005234",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds005241",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds003814",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds005143",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds005262",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds005237",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds005263",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds005264",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds005265",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds005266",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds005250",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds005267",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds005230",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds005270",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds005273",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds005258",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds005279",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds005107",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004587",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds005296",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds005299",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds005239",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds004980",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds005304",
-    "json_exists": false,
     "tsv_exists": false,
+    "json_exists": false,
     "annotated": false
   },
   {
     "name": "ds005305",
-    "json_exists": true,
     "tsv_exists": true,
+    "json_exists": true,
     "annotated": false
   },
   {
     "name": "ds005274",
-    "json_exists": false,
     "tsv_exists": true,
+    "json_exists": false,
     "annotated": false
   }
 ]
