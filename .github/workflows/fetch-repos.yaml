@@ -1,13 +1,9 @@
-name: Fetch Repositories
+name: Fetch Repositories' info
 
 on:
-  push:
-    branches:
-      - feat-80
   schedule:
-    # Run every week
-    - cron: '0 0 * * 0' # Runs every Sunday at midnight UTC
-  workflow_dispatch: # Allows manual triggering of the workflow
+    - cron: '7 7 * * 0' # Runs every Sunday at 7:07
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -39,6 +35,6 @@ jobs:
         run: |
           git config --global user.name "Neurobagel Bot"
           git config --global user.email "neurobagel-bot[bot]@users.noreply.github.com"
-          git diff --quiet ./src/assets/repos.json || (git add ./src/assets/repos.json && git commit -m "Updated repos.json" && git push origin feat-80)
+          git diff --quiet ./src/assets/repos.json || (git add ./src/assets/repos.json && git commit -m "Updated repos.json" && git push origin main)
         env:
           GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
