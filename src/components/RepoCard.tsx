@@ -5,6 +5,7 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import CheckCircleSharpIcon from '@mui/icons-material/CheckCircleSharp';
 import CancelSharpIcon from '@mui/icons-material/CancelSharp';
+import axios from 'axios';
 
 const ORGURL = 'https://github.com/OpenNeuroDatasets-JSONLD/';
 const DOWNLOADURL = 'https://raw.githubusercontent.com/OpenNeuroDatasets-JSONLD/';
@@ -15,31 +16,45 @@ const RepoCard = memo(
     tsvExists,
     jsonExists,
     annotated,
+    onSomeError,
   }: {
     repoName: string;
     tsvExists: boolean;
     jsonExists: boolean;
     annotated: boolean;
+    onSomeError: (error: string) => void;
   }) => {
-    // Function to handle downloading the participants.tsv file
+    function downloadFile(fileBlob: Blob, fileName: string) {
+      const blob = new Blob([fileBlob]);
+      const downloadLink = document.createElement('a');
+      downloadLink.href = window.URL.createObjectURL(blob);
+      downloadLink.setAttribute('download', fileName);
+      document.body.appendChild(downloadLink);
+      downloadLink.click();
+
+      if (downloadLink.parentNode) {
+        downloadLink.parentNode.removeChild(downloadLink);
+      }
+    }
     async function handleDownload(file: string) {
-      const url = `${DOWNLOADURL}${repoName}/master/${file}`;
+      let url = `${DOWNLOADURL}${repoName}/master/${file}`;
       try {
-        const response = await fetch(url);
-        if (!response.ok) {
-          throw new Error('Network response was not ok');
-        }
-        const blob = await response.blob();
-        const downloadLink = document.createElement('a');
-        downloadLink.href = window.URL.createObjectURL(blob);
-        downloadLink.setAttribute('download', file);
-        document.body.appendChild(downloadLink);
-        downloadLink.click();
-        if (downloadLink.parentNode) {
-          downloadLink.parentNode.removeChild(downloadLink);
-        }
+        // Try to download from the master branch
+        const response = await axios.get(url, { responseType: 'blob' });
+        downloadFile(response.data, file);
       } catch (error) {
-        console.error('Failed to download file:', error);
+        // Check if the error is a 404 from the master branch and then try main branch
+        if (axios.isAxiosError(error) && error.response?.status === 404) {
+          try {
+            url = `${DOWNLOADURL}${repoName}/main/${file}`;
+            const response = await axios.get(url, { responseType: 'blob' });
+            downloadFile(response.data, file);
+          } catch (errorMain) {
+            onSomeError(`Failed to download file from main branch: ${errorMain}`);
+          }
+        } else {
+          onSomeError(`Failed to download file: ${error}`);
+        }
       }
     }
 
