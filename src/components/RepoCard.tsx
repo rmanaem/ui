@@ -90,7 +90,7 @@ const RepoCard = memo(
             </div>
             <div>
               <Typography variant="subtitle2">
-                {tsvExists ? (
+                {jsonExists ? (
                   <Button onClick={() => handleDownload('participants.json')}>
                     Participants.json
                   </Button>
