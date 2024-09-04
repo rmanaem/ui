@@ -5,6 +5,7 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import CheckCircleSharpIcon from '@mui/icons-material/CheckCircleSharp';
 import CancelSharpIcon from '@mui/icons-material/CancelSharp';
+import DownloadIcon from '@mui/icons-material/Download';
 import axios from 'axios';
 
 const ORGURL = 'https://github.com/OpenNeuroDatasets-JSONLD/';
@@ -75,7 +76,11 @@ const RepoCard = memo(
             <div>
               <Typography variant="subtitle2">
                 {tsvExists ? (
-                  <Button onClick={() => handleDownload('participants.tsv')}>
+                  <Button
+                    href={`${ORGURL}${repoName}/tree/master/participants.tsv`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Participants.tsv
                   </Button>
                 ) : (
@@ -83,15 +88,29 @@ const RepoCard = memo(
                 )}
               </Typography>
               {tsvExists ? (
-                <CheckCircleSharpIcon color="success" />
+                <div className="space-x-1">
+                  <CheckCircleSharpIcon color="success" />
+                  <DownloadIcon
+                    onClick={() => handleDownload('participants.tsv')}
+                    color="primary"
+                    style={{ cursor: 'pointer' }}
+                  />
+                </div>
               ) : (
-                <CancelSharpIcon color="error" />
+                <div className="space-x-1">
+                  <CancelSharpIcon color="error" />
+                  <DownloadIcon color="disabled" />
+                </div>
               )}
             </div>
             <div>
               <Typography variant="subtitle2">
                 {jsonExists ? (
-                  <Button onClick={() => handleDownload('participants.json')}>
+                  <Button
+                    href={`${ORGURL}${repoName}/tree/master/participants.json`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Participants.json
                   </Button>
                 ) : (
@@ -99,9 +118,19 @@ const RepoCard = memo(
                 )}
               </Typography>
               {jsonExists ? (
-                <CheckCircleSharpIcon color="success" />
+                <div className="space-x-1">
+                  <CheckCircleSharpIcon color="success" />
+                  <DownloadIcon
+                    onClick={() => handleDownload('participants.json')}
+                    color="primary"
+                    style={{ cursor: 'pointer' }}
+                  />
+                </div>
               ) : (
-                <CancelSharpIcon color="error" />
+                <div className="space-x-1">
+                  <CancelSharpIcon color="error" />
+                  <DownloadIcon color="disabled" />
+                </div>
               )}
             </div>
             <div>
