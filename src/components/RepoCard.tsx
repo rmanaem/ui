@@ -6,6 +6,7 @@ import Button from '@mui/material/Button';
 import CheckCircleSharpIcon from '@mui/icons-material/CheckCircleSharp';
 import CancelSharpIcon from '@mui/icons-material/CancelSharp';
 import DownloadIcon from '@mui/icons-material/Download';
+import UploadIcon from '@mui/icons-material/Upload';
 import axios from 'axios';
 
 const ORGURL = 'https://github.com/OpenNeuroDatasets-JSONLD/';
@@ -63,16 +64,19 @@ const RepoCard = memo(
       <Card data-cy={`card-${repoName}`}>
         <CardContent>
           <div className="grid grid-cols-4 items-center justify-items-center">
-            <Typography variant="h5">
-              <Button
-                className="text-xl"
-                href={`${ORGURL}${repoName}`}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {repoName}
-              </Button>
-            </Typography>
+            <div>
+              <Typography variant="h5">
+                <Button
+                  className="text-xl"
+                  href={`${ORGURL}${repoName}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {repoName}
+                </Button>
+              </Typography>
+              <Button endIcon={<UploadIcon />}>Upload</Button>
+            </div>
             <div>
               <Typography variant="subtitle2">
                 {tsvExists ? (
