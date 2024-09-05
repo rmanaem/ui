@@ -1,11 +1,35 @@
-import { useState, useMemo } from 'react';
+import { FixedSizeList as List } from 'react-window';
+import { VariantType } from 'notistack';
+import { useMemo, useState } from 'react';
 import { Typography, IconButton } from '@mui/material';
 import HelpIcon from '@mui/icons-material/Help';
-import { VariantType } from 'notistack';
+import { RepoInfo } from '../utils/types';
 import RepoCard from './RepoCard';
 import NBDialog from './NBDialog';
 import Instructions from './Instructions';
-import { RepoInfo } from '../utils/types';
+
+function Row({
+  style,
+  repo,
+  onSomeEvent,
+}: {
+  style: React.CSSProperties;
+  repo: RepoInfo;
+  onSomeEvent: (error: string, variant: VariantType) => void;
+}) {
+  return (
+    <div style={style}>
+      <RepoCard
+        key={repo.name}
+        repoName={repo.name}
+        tsvExists={repo.tsv_exists}
+        jsonExists={repo.json_exists}
+        annotated={repo.annotated}
+        onSomeEvent={onSomeEvent}
+      />
+    </div>
+  );
+}
 
 function CardContainer({
   repos,
@@ -24,10 +48,7 @@ function CardContainer({
   const filteredRepos = useMemo(
     () =>
       repos.filter((repo) => {
-        // Check if the repo name matches any of the name filters
         const nameMatch = nameFilters.length === 0 || nameFilters.includes(repo.name);
-
-        // Check if the repo matches the status filters
         const statusMatch = statusFilters.every((filter) => {
           switch (filter) {
             case 'has participants.tsv':
@@ -40,7 +61,6 @@ function CardContainer({
               return true;
           }
         });
-
         return nameMatch && statusMatch;
       }),
     [repos, nameFilters, statusFilters]
@@ -66,17 +86,12 @@ function CardContainer({
           </Typography>
         </div>
       </div>
-      <div className="h-[72vh] space-y-4 overflow-y-auto">
-        {filteredRepos.map((repo) => (
-          <RepoCard
-            key={repo.name}
-            repoName={repo.name}
-            tsvExists={repo.tsv_exists}
-            jsonExists={repo.json_exists}
-            annotated={repo.annotated}
-            onSomeEvent={onSomeEvent}
-          />
-        ))}
+      <div className="overflow-y-auto">
+        <List height={1200} itemCount={filteredRepos.length} itemSize={120} width={1275}>
+          {({ index, style }) => (
+            <Row style={style} repo={filteredRepos[index]} onSomeEvent={onSomeEvent} />
+          )}
+        </List>
       </div>
     </div>
   );
