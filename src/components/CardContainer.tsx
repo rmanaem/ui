@@ -1,6 +1,7 @@
 import { useState, useMemo } from 'react';
 import { Typography, IconButton } from '@mui/material';
 import HelpIcon from '@mui/icons-material/Help';
+import { VariantType } from 'notistack';
 import RepoCard from './RepoCard';
 import NBDialog from './NBDialog';
 import Instructions from './Instructions';
@@ -10,12 +11,12 @@ function CardContainer({
   repos,
   nameFilters,
   statusFilters,
-  onSomeError,
+  onSomeEvent,
 }: {
   repos: RepoInfo[];
   nameFilters: string[];
   statusFilters: string[];
-  onSomeError: (error: string) => void;
+  onSomeEvent: (error: string, variant: VariantType) => void;
 }) {
   const [openDialog, setOpenDialog] = useState(false);
 
@@ -73,7 +74,7 @@ function CardContainer({
             tsvExists={repo.tsv_exists}
             jsonExists={repo.json_exists}
             annotated={repo.annotated}
-            onSomeError={onSomeError}
+            onSomeEvent={onSomeEvent}
           />
         ))}
       </div>
