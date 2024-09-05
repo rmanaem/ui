@@ -1,22 +1,18 @@
 import { useState, useRef } from 'react';
-import { Tab, Tabs } from '@mui/material';
 import { SnackbarProvider, enqueueSnackbar } from 'notistack';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import axios from 'axios';
 import './App.css';
 import Upload from './components/Upload';
 import Download from './components/Download';
 import { updateURL } from './utils/constants';
 import { isErrorWithResponse } from './utils/types';
+import Navbar from './components/Navbar';
 
 function App() {
-  const [selectedTab, setSelectedTab] = useState(0);
   const [datasetID, setDatasetID] = useState<string>('');
   const [uploadedFile, setUploadedFile] = useState<File | null>(null);
   const fileInput = useRef<HTMLInputElement>(null);
-
-  const handleTabChange = (_: React.SyntheticEvent, newValue: number) => {
-    setSelectedTab(newValue);
-  };
 
   function updateSelectedRepo(value: string | null) {
     setDatasetID(value ?? '');
@@ -57,28 +53,37 @@ function App() {
   }
 
   return (
-    <>
+    <Router>
+      <Navbar />
       <SnackbarProvider
         autoHideDuration={6000}
         anchorOrigin={{ vertical: 'top', horizontal: 'right' }}
         maxSnack={7}
       />
-      <Tabs centered value={selectedTab} onChange={handleTabChange}>
-        <Tab label="Download" />
-        <Tab label="Upload" data-cy="upload-tab" />
-      </Tabs>
-      {selectedTab === 0 ? (
-        <Download onSomeError={(error) => enqueueSnackbar(error, { variant: 'error' })} />
-      ) : (
-        <Upload
-          onUpdateSelectedRepo={(value) => updateSelectedRepo(value)}
-          fileInput={fileInput}
-          uploadedFile={uploadedFile}
-          setUploadedFile={setUploadedFile}
-          onHandleSubmit={() => handleSubmit()}
+      <Routes>
+        {/* Redirect base route to /download */}
+        <Route path="/" element={<Navigate to="/download" />} />
+        {/* Define /download and /upload routes */}
+        <Route
+          path="/download"
+          element={
+            <Download onSomeError={(error) => enqueueSnackbar(error, { variant: 'error' })} />
+          }
         />
-      )}
-    </>
+        <Route
+          path="/upload"
+          element={
+            <Upload
+              onUpdateSelectedRepo={(value) => updateSelectedRepo(value)}
+              fileInput={fileInput}
+              uploadedFile={uploadedFile}
+              setUploadedFile={setUploadedFile}
+              onHandleSubmit={() => handleSubmit()}
+            />
+          }
+        />
+      </Routes>
+    </Router>
   );
 }
 
