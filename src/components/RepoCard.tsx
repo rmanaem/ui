@@ -10,7 +10,7 @@ import UploadIcon from '@mui/icons-material/Upload';
 import axios from 'axios';
 import { VariantType } from 'notistack';
 import NBDialog from './NBDialog';
-import Upload from './Upload';
+import UploadForm from './UploadForm';
 
 const ORGURL = 'https://github.com/OpenNeuroDatasets-JSONLD/';
 const DOWNLOADURL = 'https://raw.githubusercontent.com/OpenNeuroDatasets-JSONLD/';
@@ -172,7 +172,7 @@ const RepoCard = memo(
           open={openUploadDialog}
           onClose={() => setUploadDialog(false)}
           title={`Uploading the data dictionary for ${repoName}`}
-          content={<Upload repoName={repoName} onSomeEvent={onSomeEvent} />}
+          content={<UploadForm repoName={repoName} onSomeEvent={onSomeEvent} />}
         />
       </>
     );

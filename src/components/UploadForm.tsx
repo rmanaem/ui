@@ -7,7 +7,7 @@ import { VariantType } from 'notistack';
 import { updateURL } from '../utils/constants';
 import { isErrorWithResponse } from '../utils/types';
 
-function Upload({
+function UploadForm({
   repoName,
   onSomeEvent,
 }: {
@@ -130,4 +130,4 @@ function Upload({
   );
 }
 
-export default Upload;
+export default UploadForm;
