@@ -1,22 +1,22 @@
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import { TextField, Button, Typography, Alert, IconButton, Collapse } from '@mui/material';
 import CloudUploadIcon from '@mui/icons-material/CloudUpload';
 import HelpIcon from '@mui/icons-material/Help';
+import axios from 'axios';
+import { VariantType } from 'notistack';
+import { updateURL } from '../utils/constants';
+import { isErrorWithResponse } from '../utils/types';
 
 function Upload({
-  fileInput,
-  uploadedFile,
-  setUploadedFile,
-  onUpdateSelectedRepo,
-  onHandleSubmit,
+  repoName,
+  onSomeEvent,
 }: {
-  onUpdateSelectedRepo: (value: string | null) => void;
-  fileInput: React.RefObject<HTMLInputElement>;
-  uploadedFile: File | null;
-  setUploadedFile: (value: File | null) => void;
-  onHandleSubmit: () => void;
+  repoName: string | null;
+  onSomeEvent: (message: string, variant: VariantType) => void;
 }) {
-  const [showAlert, setShowAlert] = useState(true);
+  const [uploadedFile, setUploadedFile] = useState<File | null>(null);
+  const fileInput = useRef<HTMLInputElement>(null);
+  const [showAlert, setShowAlert] = useState(false);
 
   function handleFileChange(event: React.ChangeEvent<HTMLInputElement>) {
     const file = event.target.files?.[0] || null;
@@ -27,9 +27,41 @@ function Upload({
     fileInput.current?.click();
   }
 
+  async function handleSubmit() {
+    if (uploadedFile) {
+      const reader = new FileReader();
+      reader.onload = async (readEvent) => {
+        const content = readEvent.target?.result;
+        if (typeof content === 'string') {
+          try {
+            const response = await axios.put(`${updateURL}=${repoName}`, content, {
+              headers: {
+                'Content-Type': 'application/json',
+              },
+              auth: {
+                username: import.meta.env.NB_USERNAME,
+                password: import.meta.env.NB_PASSWORD,
+              },
+            });
+            onSomeEvent(`Success: ${response.data.message}`, 'success');
+          } catch (error: unknown) {
+            if (isErrorWithResponse(error)) {
+              onSomeEvent(`Error: ${error.response.data.error}`, 'error');
+            } else {
+              onSomeEvent(`Error: ${error}`, 'error');
+            }
+          }
+        }
+      };
+      reader.readAsText(uploadedFile);
+    } else {
+      onSomeEvent('Error: Please select a file to upload.', 'error');
+    }
+  }
+
   return (
-    <div className="flex h-[70vh] flex-col items-center justify-center space-y-3">
-      <div className="flex w-1/2 items-center justify-center">
+    <div className="flex flex-col items-center justify-center space-y-3">
+      <div className="flex w-full items-center justify-center">
         <IconButton
           component="button"
           color="primary"
@@ -44,11 +76,11 @@ function Upload({
         </Collapse>
       </div>
 
-      <TextField className="w-1/2" label="User full name" required />
-      <TextField className="w-1/2" label="Email" required />
-      <TextField className="w-1/2" label="GitHub username" />
+      <TextField className="w-full" label="User full name" required />
+      <TextField className="w-full" label="Email" required />
+      <TextField className="w-full" label="GitHub username" />
       <TextField
-        className="w-1/2"
+        className="w-full"
         label="Summary of changes to the data dictionary"
         placeholder={`- Added complete annotation for age and sex columns\n- Added partial annotation for diagnosis and assessment tool columns`}
         multiline
@@ -56,15 +88,18 @@ function Upload({
         required
       />
 
-      <div className="flex w-1/2 items-center justify-between">
+      <div className="flex w-full items-center justify-between">
         <TextField
-          data-cy="dataset-id-field"
-          label="Dataset ID"
-          placeholder="dataset id"
-          required
+          data-cy="repo-name-field"
+          label="Repository Name"
+          defaultValue={repoName}
           type="text"
-          onChange={(event) => onUpdateSelectedRepo(event.target.value)}
           className="flex-grow"
+          inputProps={{
+            input: {
+              readOnly: true,
+            },
+          }}
         />
 
         <label htmlFor="file-upload" className="ml-4">
@@ -74,11 +109,11 @@ function Upload({
             style={{ display: 'none' }}
             id="file-upload"
             type="file"
-            onChange={() => handleFileChange}
+            onChange={handleFileChange}
           />
           <Button
             data-cy="upload-file-button"
-            onClick={() => handleUpload}
+            onClick={() => handleUpload()}
             startIcon={<CloudUploadIcon />}
             variant="contained"
           >
@@ -88,7 +123,7 @@ function Upload({
       </div>
 
       <Typography>{uploadedFile && `File uploaded: ${uploadedFile.name}`}</Typography>
-      <Button data-cy="submit-button" variant="contained" onClick={onHandleSubmit}>
+      <Button data-cy="submit-button" variant="contained" onClick={() => handleSubmit()}>
         Submit
       </Button>
     </div>
