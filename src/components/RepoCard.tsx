@@ -171,7 +171,7 @@ const RepoCard = memo(
         <NBDialog
           open={openUploadDialog}
           onClose={() => setUploadDialog(false)}
-          title={`Uploading data dictionary for ${repoName}`}
+          title={`Uploading the data dictionary for ${repoName}`}
           content={<Upload repoName={repoName} onSomeEvent={onSomeEvent} />}
         />
       </>
