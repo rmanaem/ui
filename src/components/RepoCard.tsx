@@ -81,7 +81,11 @@ const RepoCard = memo(
                     {repoName}
                   </Button>
                 </Typography>
-                <Button endIcon={<UploadIcon />} onClick={() => setUploadDialog(true)}>
+                <Button
+                  data-cy={`upload-${repoName}-button`}
+                  endIcon={<UploadIcon />}
+                  onClick={() => setUploadDialog(true)}
+                >
                   Upload
                 </Button>
               </div>

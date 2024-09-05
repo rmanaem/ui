@@ -6,6 +6,8 @@ export default defineConfig({
   e2e: {
     experimentalStudio: true,
     baseUrl: 'http://localhost:5173',
+    viewportWidth: 3840,
+    viewportHeight: 2160,
     setupNodeEvents(on, config) {
       codeCoverageTask(on, config);
       return config;
