@@ -2,7 +2,8 @@ import { useState, useMemo } from 'react';
 import { Typography, IconButton } from '@mui/material';
 import HelpIcon from '@mui/icons-material/Help';
 import RepoCard from './RepoCard';
-import InstructionDialog from './InstructionDialog';
+import NBDialog from './NBDialog';
+import Instructions from './Instructions';
 import { RepoInfo } from '../utils/types';
 
 function CardContainer({
@@ -51,7 +52,12 @@ function CardContainer({
           <IconButton component="button" color="primary" onClick={() => setOpenDialog(true)}>
             <HelpIcon fontSize="medium" />
           </IconButton>
-          <InstructionDialog open={openDialog} onClose={() => setOpenDialog(false)} />
+          <NBDialog
+            open={openDialog}
+            onClose={() => setOpenDialog(false)}
+            title="How to download, annotate, and upload OpenNeuro datasets"
+            content={<Instructions />}
+          />
         </div>
         <div className="justify-self-end">
           <Typography variant="body1">
