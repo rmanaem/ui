@@ -11,7 +11,7 @@ function Upload({
   repoName,
   onSomeEvent,
 }: {
-  repoName: string | null;
+  repoName: string;
   onSomeEvent: (message: string, variant: VariantType) => void;
 }) {
   const [uploadedFile, setUploadedFile] = useState<File | null>(null);
@@ -95,11 +95,10 @@ function Upload({
           defaultValue={repoName}
           type="text"
           className="flex-grow"
-          inputProps={{
-            input: {
-              readOnly: true,
-            },
+          InputProps={{
+            readOnly: true, // Set readOnly attribute
           }}
+          variant="filled"
         />
 
         <label htmlFor="file-upload" className="ml-4">
