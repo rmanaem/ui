@@ -76,9 +76,10 @@ function Upload({
         </Collapse>
       </div>
 
-      <TextField className="w-full" label="User full name" required />
-      <TextField className="w-full" label="Email" required />
-      <TextField className="w-full" label="GitHub username" />
+      <TextField className="w-full" label="User full name" placeholder="John Doe" required />
+      <TextField className="w-full" label="Email" placeholder="john.doe@noreply.com" required />
+      <TextField className="w-full" label="Affiliation" placeholder="McGill University" />
+      <TextField className="w-full" label="GitHub username" placeholder="doejo" />
       <TextField
         className="w-full"
         label="Summary of changes to the data dictionary"
