@@ -27,14 +27,14 @@ function Upload({
     fileInput.current?.click();
   }
 
-  function toggleAlert() {
-    setShowAlert((prev) => !prev);
-  }
-
   return (
     <div className="flex h-[70vh] flex-col items-center justify-center space-y-3">
       <div className="flex w-1/2 items-center justify-center">
-        <IconButton component="button" color="primary" onClick={() => toggleAlert}>
+        <IconButton
+          component="button"
+          color="primary"
+          onClick={() => setShowAlert((prev) => !prev)}
+        >
           <HelpIcon fontSize="medium" />
         </IconButton>
         <Collapse in={showAlert} className="ml-2 flex-grow">
