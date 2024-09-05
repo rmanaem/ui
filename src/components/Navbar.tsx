@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-import { Toolbar, Typography, IconButton, Badge, Tooltip } from '@mui/material';
+import { Toolbar, Typography, IconButton, Tooltip, Badge } from '@mui/material';
 import GitHub from '@mui/icons-material/GitHub';
 import Article from '@mui/icons-material/Article';
 
@@ -29,16 +29,21 @@ function Navbar() {
             alt="Logo"
             height="60"
           />
-          <div className="ml-4">
-            <Badge badgeContent={latestReleaseTag}>
-              <Typography variant="h5">Neurobagel OpenNeuro Utility</Typography>
-            </Badge>
+          <div className="ml-4 flex flex-col justify-center">
+            <div className="flex items-center">
+              <Badge badgeContent={latestReleaseTag}>
+                <Typography variant="h5" component="div">
+                  Neurobagel OpenNeuro Utility
+                </Typography>
+              </Badge>
+            </div>
             <Typography className="text-gray-500">
               Download and upload OpenNeuro datasets within Neurobagel ecosystem
             </Typography>
           </div>
         </div>
-        <div className="flex">
+        {/* Icons Section */}
+        <div className="flex items-center">
           <Tooltip title="Documentation">
             <IconButton size="small" href="https://neurobagel.org/query_tool/" target="_blank">
               <Article />
