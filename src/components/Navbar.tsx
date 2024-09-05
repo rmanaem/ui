@@ -3,7 +3,6 @@ import axios from 'axios';
 import { Toolbar, Typography, IconButton, Tooltip, Badge } from '@mui/material';
 import GitHub from '@mui/icons-material/GitHub';
 import Article from '@mui/icons-material/Article';
-import { Link } from 'react-router-dom';
 
 function Navbar() {
   const [latestReleaseTag, setLatestReleaseTag] = useState('');
@@ -45,13 +44,6 @@ function Navbar() {
         </div>
         {/* Icons Section */}
         <div className="flex items-center">
-          {/* Replace Tab buttons with links */}
-          <Link to="/download">
-            <IconButton size="small">Download</IconButton>
-          </Link>
-          <Link to="/upload">
-            <IconButton size="small">Upload</IconButton>
-          </Link>
           <Tooltip title="Documentation">
             <IconButton size="small" href="https://neurobagel.org/" target="_blank">
               <Article />
