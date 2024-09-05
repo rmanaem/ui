@@ -39,7 +39,7 @@ function Upload({
         </IconButton>
         <Collapse in={showAlert} className="ml-2 flex-grow">
           <Alert severity="info">
-            Please fill in the following information, upload the data dictionary, and click submit.
+            Please fill in the required fields *, upload the data dictionary, and click submit.
           </Alert>
         </Collapse>
       </div>
