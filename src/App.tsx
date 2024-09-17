@@ -1,28 +1,25 @@
 import { useState, useRef } from 'react';
-import { TextField, Button, Typography } from '@mui/material';
+import { Tab, Tabs } from '@mui/material';
 import { SnackbarProvider, enqueueSnackbar } from 'notistack';
 import axios from 'axios';
-import CloudUploadIcon from '@mui/icons-material/CloudUpload';
 import './App.css';
+import Upload from './components/Upload';
+import Download from './components/Download';
 import { updateURL } from './utils/constants';
-import { isErrorWithResponse } from './utils/type';
+import { isErrorWithResponse } from './utils/types';
 
 function App() {
+  const [selectedTab, setSelectedTab] = useState(0);
   const [datasetID, setDatasetID] = useState<string>('');
   const [uploadedFile, setUploadedFile] = useState<File | null>(null);
   const fileInput = useRef<HTMLInputElement>(null);
 
+  const handleTabChange = (_: React.SyntheticEvent, newValue: number) => {
+    setSelectedTab(newValue);
+  };
+
   function updateSelectedRepo(value: string | null) {
     setDatasetID(value ?? '');
-  }
-
-  function handleFileChange(event: React.ChangeEvent<HTMLInputElement>) {
-    const file = event.target.files?.[0] || null;
-    setUploadedFile(file);
-  }
-
-  function handleUpload() {
-    fileInput.current?.click();
   }
 
   async function handleSubmit() {
@@ -66,45 +63,21 @@ function App() {
         anchorOrigin={{ vertical: 'top', horizontal: 'right' }}
         maxSnack={7}
       />
-      <div className="flex h-[70vh] flex-col items-center justify-center space-y-3">
-        <TextField
-          data-cy="dataset-id-field"
-          label="Dataset ID"
-          placeholder="dataset id"
-          required
-          type="text"
-          onChange={(event) => updateSelectedRepo(event.target.value)}
+      <Tabs centered value={selectedTab} onChange={handleTabChange}>
+        <Tab label="Download" />
+        <Tab label="Upload" data-cy="upload-tab" />
+      </Tabs>
+      {selectedTab === 0 ? (
+        <Download onSomeError={(error) => enqueueSnackbar(error, { variant: 'error' })} />
+      ) : (
+        <Upload
+          onUpdateSelectedRepo={(value) => updateSelectedRepo(value)}
+          fileInput={fileInput}
+          uploadedFile={uploadedFile}
+          setUploadedFile={setUploadedFile}
+          onHandleSubmit={() => handleSubmit()}
         />
-        {/*
-         * We have to use a button and an invisible input to trigger the file upload
-         * since MUI doesn't have a native file input.
-         * Once the button is clicked we click the invisible input through DOM manipulation
-         * to trigger the file upload.
-         */}
-        <label htmlFor="file-upload">
-          <input
-            ref={fileInput}
-            accept="*/*"
-            style={{ display: 'none' }}
-            id="file-upload"
-            type="file"
-            onChange={handleFileChange}
-          />
-          <Button
-            data-cy="upload-file-button"
-            onClick={() => handleUpload()}
-            startIcon={<CloudUploadIcon />}
-            variant="contained"
-          >
-            Upload File
-          </Button>
-        </label>
-        <Typography>{uploadedFile && `File uploaded: ${uploadedFile.name}`}</Typography>
-
-        <Button data-cy="submit-button" variant="contained" onClick={() => handleSubmit()}>
-          Submit
-        </Button>
-      </div>
+      )}
     </>
   );
 }

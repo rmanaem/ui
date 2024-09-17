@@ -1,0 +1,40 @@
+name: Fetch Repositories' info
+
+on:
+  schedule:
+    - cron: '7 7 * * 0' # Runs every Sunday at 7:07
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-repos:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate a token
+        id: generate-token
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ vars.NB_BOT_ID }}
+          private-key: ${{ secrets.NB_BOT_KEY }}
+
+      - name: Run fetch-repos.sh
+        env:
+          GH_TOKEN: ${{ steps.generate-token.outputs.token }}
+        working-directory: scripts
+        run: |
+          chmod +x fetch-repos.sh
+          ./fetch-repos.sh
+
+      - name: Check for changes and commit if needed
+        run: |
+          git config --global user.name "Neurobagel Bot"
+          git config --global user.email "neurobagel-bot[bot]@users.noreply.github.com"
+          git diff --quiet ./src/assets/repos.json || (git add ./src/assets/repos.json && git commit -m "Updated repos.json" && git push origin main)
+        env:
+          GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
