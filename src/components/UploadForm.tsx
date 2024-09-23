@@ -15,6 +15,11 @@ function UploadForm({
   onSomeEvent: (message: string, variant: VariantType) => void;
 }) {
   const [uploadedFile, setUploadedFile] = useState<File | null>(null);
+  const [name, setName] = useState<string>('');
+  const [email, setEmail] = useState<string>('');
+  const [affiliation, setAffiliation] = useState<string>('');
+  const [githubUsername, setGithubUsername] = useState<string>('');
+  const [changesSummary, setChangesSummary] = useState<string>('');
   const fileInput = useRef<HTMLInputElement>(null);
   const [showAlert, setShowAlert] = useState(false);
 
@@ -34,13 +39,17 @@ function UploadForm({
         const content = readEvent.target?.result;
         if (typeof content === 'string') {
           try {
-            const response = await axios.put(`${updateURL}=${repoName}`, content, {
+            const formData = new FormData();
+            formData.append('data_dictionary', uploadedFile, uploadedFile.name);
+            formData.append('name', name);
+            formData.append('email', email);
+            formData.append('affiliation', affiliation);
+            formData.append('github_username', githubUsername);
+            formData.append('changes_summary', changesSummary);
+            const response = await axios.put(`${updateURL}=${repoName}`, formData, {
               headers: {
-                'Content-Type': 'application/json',
-              },
-              auth: {
-                username: import.meta.env.NB_USERNAME,
-                password: import.meta.env.NB_PASSWORD,
+                accept: 'application/json',
+                'Content-Type': 'multipart/form-data',
               },
             });
             onSomeEvent(`Success: ${response.data.message}`, 'success');
@@ -76,10 +85,34 @@ function UploadForm({
         </Collapse>
       </div>
 
-      <TextField className="w-full" label="User full name" placeholder="John Doe" required />
-      <TextField className="w-full" label="Email" placeholder="john.doe@noreply.com" required />
-      <TextField className="w-full" label="Affiliation" placeholder="McGill University" />
-      <TextField className="w-full" label="GitHub username" placeholder="doejo" />
+      <TextField
+        className="w-full"
+        label="User full name"
+        placeholder="John Doe"
+        required
+        onChange={(event) => {
+          setName(event.target.value);
+        }}
+      />
+      <TextField
+        className="w-full"
+        label="Email"
+        placeholder="john.doe@noreply.com"
+        required
+        onChange={(event) => setEmail(event.target.value)}
+      />
+      <TextField
+        className="w-full"
+        label="Affiliation"
+        placeholder="McGill University"
+        onChange={(event) => setAffiliation(event.target.value)}
+      />
+      <TextField
+        className="w-full"
+        label="GitHub username"
+        placeholder="doejo"
+        onChange={(event) => setGithubUsername(event.target.value)}
+      />
       <TextField
         className="w-full"
         label="Summary of changes to the data dictionary"
@@ -87,6 +120,7 @@ function UploadForm({
         multiline
         minRows={10}
         required
+        onChange={(event) => setChangesSummary(event.target.value)}
       />
 
       <div className="flex w-full items-center justify-between">
