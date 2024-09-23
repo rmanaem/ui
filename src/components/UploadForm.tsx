@@ -1,9 +1,19 @@
 import { useState, useRef } from 'react';
-import { TextField, Button, Typography, Alert, IconButton, Collapse } from '@mui/material';
+import {
+  TextField,
+  Button,
+  Typography,
+  Alert,
+  IconButton,
+  Collapse,
+  LinearProgress,
+  Box,
+} from '@mui/material';
 import CloudUploadIcon from '@mui/icons-material/CloudUpload';
 import HelpIcon from '@mui/icons-material/Help';
 import axios from 'axios';
 import { VariantType } from 'notistack';
+import CheckIcon from '@mui/icons-material/Check';
 import { updateURL } from '../utils/constants';
 import { isErrorWithResponse } from '../utils/types';
 
@@ -20,6 +30,8 @@ function UploadForm({
   const [affiliation, setAffiliation] = useState<string>('');
   const [githubUsername, setGithubUsername] = useState<string>('');
   const [changesSummary, setChangesSummary] = useState<string>('');
+  const [isLoading, setIsLoading] = useState<boolean>(false);
+  const [success, setSuccess] = useState<boolean>(false);
   const fileInput = useRef<HTMLInputElement>(null);
   const [showAlert, setShowAlert] = useState(false);
 
@@ -38,6 +50,7 @@ function UploadForm({
       reader.onload = async (readEvent) => {
         const content = readEvent.target?.result;
         if (typeof content === 'string') {
+          setIsLoading(true);
           try {
             const formData = new FormData();
             formData.append('data_dictionary', uploadedFile, uploadedFile.name);
@@ -52,6 +65,8 @@ function UploadForm({
                 'Content-Type': 'multipart/form-data',
               },
             });
+            setIsLoading(false);
+            setSuccess(true);
             onSomeEvent(`Success: ${response.data.message}`, 'success');
           } catch (error: unknown) {
             if (isErrorWithResponse(error)) {
@@ -157,9 +172,20 @@ function UploadForm({
       </div>
 
       <Typography>{uploadedFile && `File uploaded: ${uploadedFile.name}`}</Typography>
-      <Button data-cy="submit-button" variant="contained" onClick={() => handleSubmit()}>
-        Submit
+      <Button
+        data-cy="submit-button"
+        variant="contained"
+        onClick={() => handleSubmit()}
+        color={success ? 'success' : 'primary'}
+        endIcon={success ? <CheckIcon /> : null}
+      >
+        {success ? 'Submitted' : 'Submit'}
       </Button>
+      {isLoading && (
+        <Box sx={{ width: '100%' }}>
+          <LinearProgress />
+        </Box>
+      )}
     </div>
   );
 }
