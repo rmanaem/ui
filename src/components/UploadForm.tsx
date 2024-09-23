@@ -32,6 +32,7 @@ function UploadForm({
   const [changesSummary, setChangesSummary] = useState<string>('');
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [success, setSuccess] = useState<boolean>(false);
+  const [prLink, setPrLink] = useState<string>('');
   const fileInput = useRef<HTMLInputElement>(null);
   const [showAlert, setShowAlert] = useState(false);
 
@@ -65,6 +66,7 @@ function UploadForm({
                 'Content-Type': 'multipart/form-data',
               },
             });
+            setPrLink(response.data.pull_request_url);
             setIsLoading(false);
             setSuccess(true);
             onSomeEvent(`Success: ${response.data.message}`, 'success');
@@ -185,6 +187,14 @@ function UploadForm({
         <Box sx={{ width: '100%' }}>
           <LinearProgress />
         </Box>
+      )}
+      {success && (
+        <Alert severity="success">
+          You can view the pull request{' '}
+          <a href={prLink} target="_blank" rel="noopener noreferrer">
+            here
+          </a>
+        </Alert>
       )}
     </div>
   );
