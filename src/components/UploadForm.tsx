@@ -105,6 +105,7 @@ function UploadForm({
       </div>
 
       <TextField
+        data-cy="user-name-field"
         className="w-full"
         label="User full name"
         placeholder="John Doe"
@@ -114,6 +115,7 @@ function UploadForm({
         }}
       />
       <TextField
+        data-cy="email-field"
         className="w-full"
         label="Email"
         placeholder="john.doe@noreply.com"
@@ -121,18 +123,21 @@ function UploadForm({
         onChange={(event) => setEmail(event.target.value)}
       />
       <TextField
+        data-cy="affiliation-field"
         className="w-full"
         label="Affiliation"
         placeholder="McGill University"
         onChange={(event) => setAffiliation(event.target.value)}
       />
       <TextField
+        data-cy="github-username-field"
         className="w-full"
         label="GitHub username"
         placeholder="doejo"
         onChange={(event) => setGithubUsername(event.target.value)}
       />
       <TextField
+        data-cy="changes-summary-field"
         className="w-full"
         label="Summary of changes to the data dictionary"
         placeholder={`- Added complete annotation for age and sex columns\n- Added partial annotation for diagnosis and assessment tool columns`}
