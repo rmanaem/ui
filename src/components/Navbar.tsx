@@ -8,6 +8,7 @@ function Navbar() {
   const [latestReleaseTag, setLatestReleaseTag] = useState('');
 
   useEffect(() => {
+    // TODO: replace this with a baked in version number
     const GHApiURL = 'https://api.github.com/repos/neurobagel/ui/releases/latest';
     axios
       .get(GHApiURL)
@@ -24,6 +25,7 @@ function Navbar() {
     <Toolbar className="my-4" data-cy="navbar">
       <div className="flex w-full justify-between">
         <div className="flex items-center">
+          {/* TODO: Use a local src for the logo */}
           <img
             src="https://raw.githubusercontent.com/neurobagel/documentation/main/docs/imgs/logo/neurobagel_logo.png"
             alt="Logo"

@@ -15,11 +15,10 @@ interface NBDialogProps {
 
 function NBDialog({ open, onClose, title, content }: NBDialogProps) {
   const theme = useTheme();
-  const fullScreen = useMediaQuery(theme.breakpoints.down('md'));
-
+  const isSmallViewport = useMediaQuery(theme.breakpoints.down('md'));
   return (
     <Dialog
-      fullScreen={fullScreen}
+      fullScreen={isSmallViewport}
       open={open}
       onClose={onClose}
       maxWidth="lg"

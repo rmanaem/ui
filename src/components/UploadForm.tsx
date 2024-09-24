@@ -76,6 +76,8 @@ function UploadForm({
             } else {
               onSomeEvent(`Error: ${error}`, 'error');
             }
+          } finally {
+            setIsLoading(false);
           }
         }
       };
@@ -148,7 +150,7 @@ function UploadForm({
           type="text"
           className="flex-grow"
           InputProps={{
-            readOnly: true, // Set readOnly attribute
+            readOnly: true,
           }}
           variant="filled"
         />

@@ -27,7 +27,7 @@ const RepoCard = memo(
     tsvExists: boolean;
     jsonExists: boolean;
     annotated: boolean;
-    onSomeEvent: (error: string, variant: VariantType) => void;
+    onSomeEvent: (message: string, variant: VariantType) => void;
   }) => {
     const [openUploadDialog, setUploadDialog] = useState(false);
 
@@ -72,12 +72,7 @@ const RepoCard = memo(
             <div className="grid grid-cols-4 items-center justify-items-center">
               <div>
                 <Typography variant="h5">
-                  <Button
-                    className="text-xl"
-                    href={`${ORGURL}${repoName}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <Button className="text-xl" href={`${ORGURL}${repoName}`} target="_blank">
                     {repoName}
                   </Button>
                 </Typography>
@@ -95,7 +90,6 @@ const RepoCard = memo(
                     <Button
                       href={`${ORGURL}${repoName}/tree/master/participants.tsv`}
                       target="_blank"
-                      rel="noopener noreferrer"
                     >
                       Participants.tsv
                     </Button>
@@ -125,7 +119,6 @@ const RepoCard = memo(
                     <Button
                       href={`${ORGURL}${repoName}/tree/master/participants.json`}
                       target="_blank"
-                      rel="noopener noreferrer"
                     >
                       Participants.json
                     </Button>
@@ -155,7 +148,6 @@ const RepoCard = memo(
                     <Button
                       href={`https://github.com/neurobagel/openneuro-annotations/tree/main/${repoName}.jsonld`}
                       target="_blank"
-                      rel="noopener noreferrer"
                     >
                       Annotated
                     </Button>

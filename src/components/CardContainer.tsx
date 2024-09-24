@@ -1,4 +1,4 @@
-import { FixedSizeList as List } from 'react-window';
+import { FixedSizeList } from 'react-window';
 import { VariantType } from 'notistack';
 import { useMemo, useState } from 'react';
 import { Typography, IconButton } from '@mui/material';
@@ -8,7 +8,7 @@ import RepoCard from './RepoCard';
 import NBDialog from './NBDialog';
 import Instructions from './Instructions';
 
-function Row({
+function VirtualRow({
   style,
   repo,
   onSomeEvent,
@@ -87,11 +87,12 @@ function CardContainer({
         </div>
       </div>
       <div className="overflow-y-auto">
-        <List height={1200} itemCount={filteredRepos.length} itemSize={120} width={1275}>
+        {/* Using a virtualized list since the list of repos is very large */}
+        <FixedSizeList height={1200} itemCount={filteredRepos.length} itemSize={120} width={1275}>
           {({ index, style }) => (
-            <Row style={style} repo={filteredRepos[index]} onSomeEvent={onSomeEvent} />
+            <VirtualRow style={style} repo={filteredRepos[index]} onSomeEvent={onSomeEvent} />
           )}
-        </List>
+        </FixedSizeList>
       </div>
     </div>
   );
