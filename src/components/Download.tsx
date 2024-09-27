@@ -1,9 +1,10 @@
 import { useState } from 'react';
 import { Autocomplete, TextField } from '@mui/material';
+import { VariantType } from 'notistack';
 import repos from '../assets/repos.json';
 import CardContainer from './CardContainer';
 
-function Download({ onSomeError }: { onSomeError: (error: string) => void }) {
+function Download({ onSomeEvent }: { onSomeEvent: (error: string, variant: VariantType) => void }) {
   const statusOptions = ['has participants.tsv', 'has participants.json', 'not annotated'];
   const [nameFilters, setNameFilters] = useState<string[]>([]);
   const [statusFilters, setStatusFilters] = useState<string[]>([]);
@@ -59,7 +60,7 @@ function Download({ onSomeError }: { onSomeError: (error: string) => void }) {
         repos={repos}
         nameFilters={nameFilters}
         statusFilters={statusFilters}
-        onSomeError={onSomeError}
+        onSomeEvent={onSomeEvent}
       />
     </div>
   );
