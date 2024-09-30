@@ -42,7 +42,7 @@
     "@types/react-window": "^1.8.8",
     "@typescript-eslint/eslint-plugin": "^8.7.0",
     "@typescript-eslint/parser": "^8.7.0",
-    "@vitejs/plugin-react-swc": "^3.7.0",
+    "@vitejs/plugin-react-swc": "^3.7.1",
     "@vitest/coverage-istanbul": "^2.0.5",
     "@vitest/ui": "^2.0.5",
     "autoprefixer": "^10.4.16",
