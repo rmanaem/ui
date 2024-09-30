@@ -140,7 +140,9 @@ function UploadForm({
         data-cy="changes-summary-field"
         className="w-full"
         label="Summary of changes to the data dictionary"
-        placeholder={`- Added complete annotation for age and sex columns\n- Added partial annotation for diagnosis and assessment tool columns`}
+        placeholder={
+          '- Added complete annotation for age and sex columns\n- Added partial annotation for diagnosis and assessment tool columns'
+        }
         multiline
         minRows={10}
         required
