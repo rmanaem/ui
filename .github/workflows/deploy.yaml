@@ -4,6 +4,9 @@ name: deploy
 on:
   release:
     types: [published]
+  push:
+    branches:
+      - feat-118
   workflow_dispatch:
 
 # Sets the GITHUB_TOKEN permissions to allow deployment to GitHub Pages
