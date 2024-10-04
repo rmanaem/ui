@@ -35,8 +35,9 @@ function instructions() {
           </li>
         </ul>
         <li>
-          Once you&apos;re done annotating the dataset, navigate to the upload tab, enter your
-          dataset ID, upload your newly annotated participant.json file, and submit
+          Once you&apos;re done annotating the dataset, use the upload button for your dataset,
+          enter your information in the form, upload your newly annotated participant.json file, and
+          submit
         </li>
       </ol>
     </DialogContentText>
