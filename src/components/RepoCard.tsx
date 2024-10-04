@@ -7,6 +7,7 @@ import CheckCircleSharpIcon from '@mui/icons-material/CheckCircleSharp';
 import CancelSharpIcon from '@mui/icons-material/CancelSharp';
 import DownloadIcon from '@mui/icons-material/Download';
 import UploadIcon from '@mui/icons-material/Upload';
+import LaunchIcon from '@mui/icons-material/Launch';
 import axios from 'axios';
 import { VariantType } from 'notistack';
 import NBDialog from './NBDialog';
@@ -72,7 +73,13 @@ const RepoCard = memo(
             <div className="grid grid-cols-4 items-center justify-items-center">
               <div>
                 <Typography variant="h5">
-                  <Button className="text-xl" href={`${ORGURL}${repoName}`} target="_blank">
+                  <Button
+                    className="text-xl"
+                    href={`${ORGURL}${repoName}`}
+                    target="_blank"
+                    sx={{ textTransform: 'none' }}
+                    endIcon={<LaunchIcon />}
+                  >
                     {repoName}
                   </Button>
                 </Typography>
@@ -80,6 +87,7 @@ const RepoCard = memo(
                   data-cy={`upload-${repoName}-button`}
                   endIcon={<UploadIcon />}
                   onClick={() => setUploadDialog(true)}
+                  sx={{ textTransform: 'none' }}
                 >
                   Upload
                 </Button>
@@ -90,11 +98,15 @@ const RepoCard = memo(
                     <Button
                       href={`${ORGURL}${repoName}/tree/master/participants.tsv`}
                       target="_blank"
+                      sx={{ textTransform: 'none' }}
+                      endIcon={<LaunchIcon />}
                     >
-                      Participants.tsv
+                      participants.tsv
                     </Button>
                   ) : (
-                    <Button disabled>Participants.tsv</Button>
+                    <Button disabled sx={{ textTransform: 'none' }}>
+                      participants.tsv
+                    </Button>
                   )}
                 </Typography>
                 {tsvExists ? (
@@ -119,11 +131,15 @@ const RepoCard = memo(
                     <Button
                       href={`${ORGURL}${repoName}/tree/master/participants.json`}
                       target="_blank"
+                      sx={{ textTransform: 'none' }}
+                      endIcon={<LaunchIcon />}
                     >
-                      Participants.json
+                      participants.json
                     </Button>
                   ) : (
-                    <Button disabled>Participants.json</Button>
+                    <Button disabled sx={{ textTransform: 'none' }}>
+                      participants.json
+                    </Button>
                   )}
                 </Typography>
                 {jsonExists ? (
@@ -148,11 +164,15 @@ const RepoCard = memo(
                     <Button
                       href={`https://github.com/neurobagel/openneuro-annotations/tree/main/${repoName}.jsonld`}
                       target="_blank"
+                      sx={{ textTransform: 'none' }}
+                      endIcon={<LaunchIcon />}
                     >
-                      Annotated
+                      annotated
                     </Button>
                   ) : (
-                    <Button disabled>Annotated</Button>
+                    <Button disabled sx={{ textTransform: 'none' }}>
+                      annotated
+                    </Button>
                   )}
                 </Typography>
                 {annotated ? (
