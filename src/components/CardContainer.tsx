@@ -55,7 +55,7 @@ function CardContainer({
               return repo.tsv_exists;
             case 'has participants.json':
               return repo.json_exists;
-            case 'not annotated':
+            case 'not annotated using Neurobagel':
               return !repo.annotated;
             default:
               return true;

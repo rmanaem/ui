@@ -5,7 +5,11 @@ import repos from '../assets/repos.json';
 import CardContainer from './CardContainer';
 
 function Download({ onSomeEvent }: { onSomeEvent: (error: string, variant: VariantType) => void }) {
-  const statusOptions = ['has participants.tsv', 'has participants.json', 'not annotated'];
+  const statusOptions = [
+    'has participants.tsv',
+    'has participants.json',
+    'not annotated using Neurobagel',
+  ];
   const [nameFilters, setNameFilters] = useState<string[]>([]);
   const [statusFilters, setStatusFilters] = useState<string[]>([]);
 
