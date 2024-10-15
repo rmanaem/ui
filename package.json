@@ -43,8 +43,8 @@
     "@typescript-eslint/eslint-plugin": "^8.8.1",
     "@typescript-eslint/parser": "^8.7.0",
     "@vitejs/plugin-react-swc": "^3.7.1",
-    "@vitest/coverage-istanbul": "^2.0.5",
-    "@vitest/ui": "^2.0.5",
+    "@vitest/coverage-istanbul": "^2.1.3",
+    "@vitest/ui": "^2.1.2",
     "autoprefixer": "^10.4.20",
     "cypress": "^13.15.0",
     "eslint": "^8.56.0",
@@ -71,6 +71,6 @@
     "typescript": "^5.6.2",
     "vite": "^5.4.2",
     "vite-plugin-istanbul": "^6.0.0",
-    "vitest": "^2.0.5"
+    "vitest": "^2.1.3"
   }
 }
