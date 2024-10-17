@@ -39,8 +39,6 @@ but before proceeding with either you need to set the environment variables.
 | Environment variable    | Type   | Required | Default value if not set | Example                |
 | ----------------------- | ------ | -------- | ------------------------ | ---------------------- |
 | NB_OPENNEURO_UPLOAD_API | string | Yes      | -                        | http://127.0.0.1:8000/ |
-| NB_USERNAME             | string | Yes      | -                        | admin                  |
-| NB_PASSWORD             | string | Yes      | -                        | admin                  |
 
 #### `NB_OPENNEURO_UPLOAD_API`
 
