@@ -4,16 +4,13 @@
 
 <div>
     <a href="https://github.com/neurobagel/ui/actions/workflows/tests.yaml">
-        <img src="https://img.shields.io/github/actions/workflow/status/neurobagel/ui/checks.yaml?color=BDB76B&label=checks&style=flat-square" alt="Checks">
-    </a>
+        <img src="https://img.shields.io/github/actions/workflow/status/neurobagel/ui/checks.yaml?color=BDB76B&label=checks&style=flat-square" alt="Checks"></a>
     <a href="https://github.com/neurobagel/ui/actions/workflows/test.yaml">
-        <img src="https://img.shields.io/github/actions/workflow/status/neurobagel/ui/tests.yaml?color=8FBC8F&label=e2e test&style=flat-square" alt="tests">
-    </a>
+        <img src="https://img.shields.io/github/actions/workflow/status/neurobagel/ui/tests.yaml?color=8FBC8F&label=e2e test&style=flat-square" alt="tests"></a>
     <a href="https://nodejs.org/en//">
-        <img src="https://img.shields.io/badge/node-20.9-CD5C5C?style=flat-square" alt="Node">
+        <img src="https://img.shields.io/badge/node-20.9-CD5C5C?style=flat-square" alt="Node"></a>
     <a href="LICENSE">
-        <img src="https://img.shields.io/github/license/neurobagel/ui?color=4682B4&style=flat-square" alt="GitHub license">
-    </a>
+        <img src="https://img.shields.io/github/license/neurobagel/ui?color=4682B4&style=flat-square" alt="GitHub license"></a>
 </div>
 <br>
 
